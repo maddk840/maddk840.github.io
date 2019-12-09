@@ -15,7 +15,7 @@
         "FOOTER": {
             "CONTACT": {
                 "IMG": {
-                    "SRC": "/assets/images/logos/logo_footer.png",
+                    "SRC": "assets/images/logos/logo_footer.png",
                     "ALT": "White G with yellow bird Gazouyi logo"
                 }
             },
@@ -23,28 +23,28 @@
             "SOCIALS": [
               {
                   "IMG": {
-                      "SRC": "/assets/images/icon/facebook.svg",
+                      "SRC": "assets/images/icon/facebook.svg",
                       "ALT": "button to Gazyoui's facebook page"
                   },
                   "HREF": "https://www.facebook.com/gazouyi"
               },
               {
                   "IMG": {
-                      "SRC": "/assets/images/icon/instagram.svg",
+                      "SRC": "assets/images/icon/instagram.svg",
                       "ALT": "button to Gazyoui's instagram page"
                   },
                   "HREF": "https://www.instagram.com/gazouyi"
               },
               {
                   "IMG": {
-                      "SRC": "/assets/images/icon/twitter.svg",
+                      "SRC": "assets/images/icon/twitter.svg",
                       "ALT": "button to Gazyoui's twitter page"
                   },
                   "HREF": "https://www.twitter.com/gazouyi"
               },
               {
                   "IMG": {
-                      "SRC": "/assets/images/icon/linkedin.svg",
+                      "SRC": "assets/images/icon/linkedin.svg",
                       "ALT": "button to Gazyoui's linkedin page"
                   },
                   "HREF": "https://www.linkedin.com/gazouyi"
@@ -93,7 +93,7 @@
               }
             ],
             "IMG": {
-              "SRC": "/assets/images/illus/bird_family.png",
+              "SRC": "assets/images/illus/bird_family.png",
               "ALT": "Three yellow Gazouyi birds. One large parent and two small children."
             }
         },
@@ -126,7 +126,7 @@
         "ABOUT-INTRO": {
           "ABOUT1":{
             "IMG": {
-              "SRC": "/assets/images/illus/no_image3.png",
+              "SRC": "assets/images/illus/no_image3.png",
               "ALT": "phone with yellow Gazouyi bird on the screen"
             },
             "TITLE": "Gather & Share",
@@ -141,7 +141,7 @@
           },
           "ABOUT2":{
             "IMG": {
-              "SRC": "/assets/images/illus/no_image2.png",
+              "SRC": "assets/images/illus/no_image2.png",
               "ALT": "phone laying down with yellow Gazouyi bird on the screen"
             },
             "TITLE": "Understand",
@@ -153,7 +153,7 @@
           },
           "ABOUT3":{
             "IMG": {
-              "SRC": "/assets/images/illus/no_image4.png",
+              "SRC": "assets/images/illus/no_image4.png",
               "ALT": "two floating phones with yellow Gazouyi bird on the screens"
             },
             "TITLE": "Connect",
@@ -175,31 +175,31 @@
             "SUPPORTS": [
                 {
                     "IMG": {
-                        "SRC": "/assets/images/logos/cnrs_color.png",
+                        "SRC": "assets/images/logos/cnrs_color.png",
                         "ALT": "logo centre national de la recherche scientifique"
                     }
                 },
                 {
                     "IMG": {
-                        "SRC": "/assets/images/logos/ehess_color.png",
+                        "SRC": "assets/images/logos/ehess_color.png",
                         "ALT": "logo école des hautes études en sciences sociales"
                     }
                 },
                 {
                     "IMG": {
-                        "SRC": "/assets/images/logos/inria_color.png",
+                        "SRC": "assets/images/logos/inria_color.png",
                         "ALT": "logo Institut national de recherche en informatique et en automatique"
                     }
                 },
                 {
                     "IMG": {
-                        "SRC": "/assets/images/logos/psl_color.png",
+                        "SRC": "assets/images/logos/psl_color.png",
                         "ALT": "logo université de recherche Paris-Sciences-et-Lettres"
                     }
                 },
                 {
                     "IMG": {
-                        "SRC": "/assets/images/logos/ens_color.png",
+                        "SRC": "assets/images/logos/ens_color.png",
                         "ALT": "logo école normale supérieure"
                     }
                 }
