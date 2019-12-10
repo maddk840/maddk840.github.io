@@ -9,7 +9,7 @@
             },
             "HOME-LINK": "Home",
             "ABOUT-LINK": "About",
-            "SIGNUP-LINK": "Sign up",
+            "SIGNUP-LINK": "Subscribe",
             "BLOG-LINK": "Blog"
         },
         "FOOTER": {
@@ -22,23 +22,19 @@
             "COLUMN1":{
               "TITLE": "Company",
               "ITEM1":{
-                "NAME": "About us",
-                "HREF": "../pages/about-us"
+                "NAME": "About us"
               },
               "ITEM2":{
-                "NAME": "Contact us",
-                "HREF": "../pages/contact-us"
+                "NAME": "Contact us"
               }
             },
             "COLUMN2":{
               "TITLE": "Further info",
               "ITEM1":{
-                "NAME": "Terms & Conditions",
-                "HREF": "../pages/terms-of-use"
+                "NAME": "Terms & Conditions"
               },
               "ITEM2":{
-                "NAME": "Privacy Policy",
-                "HREF": "../pages/privacy-policy"
+                "NAME": "Privacy Policy"
               }
             },
             "MEDIA-TITLE": "Follow us",
@@ -112,7 +108,7 @@
     "HOME" : {
         "INTRO": {
             "CATCHPHRASE": "Your <i>smart</i> companion in supporting your child from first chirp to first flight",
-            "BTN": "Sign Up"
+            "BTN": "Subscribe"
         },
         "ABOUT-REVERSE": {
             "TITLE": "[gəˈzuji:]",
@@ -239,37 +235,68 @@
         },
         "NEWSLETTER": {
             "CATCHPHRASE": "Join us!",
-            "DESCRIPTION": "If you'd like to get involved or try Gazouyi out, register for our newslettler and keep an eye out for our beta test via this link. If you have any questions, recommendations or just want to chat feel free to send us an email at <a href=\"mailto:contact@gazouyi.com\">contact@gazouyi.com</a>",
+            "DESCRIPTION": "If you'd like to get involved or try Gazouyi out, register for our newsletter and keep an eye out for our beta test via this link. If you have any questions, recommendations or just want to chat feel free to send us an email at <a href=\"mailto:contact@gazouyi.com\">contact@gazouyi.com</a>",
             "IMG": {
               "SRC": "assets/images/illus/mail.png",
               "ALT": "Girl in dress with letter jumping in the air"
             },
-            "SUCCESS": "You successfully subscribed to our newsletter,",
-            "THANKING": "THANK YOU!",
-            "FAIL": "There was an error with the subscription. We are very sorry. Please try again later.",
-            "BTN-PROFILE": "Profile",
-            "MSG-INVALID-MAIL": "Please enter a valid email address",
-            "PROFILES": [
-                {
-                    "NAME": "Parent",
-                    "VALUE": "parent"
-                },
-                {
-                    "NAME": "Researcher",
-                    "VALUE": "researcher"
-                },
-                {
-                    "NAME": "Investor",
-                    "VALUE": "investor"
-                }
-            ],
+            "HREF": "https://mailchi.mp/dc7cbb1125dc/gazouyi",
             "BTN-SEND": "Subscribe",
             "DISCLAIMER": "Your email address is only used to keep you informed on the progress of the Gazouyi project. We invite you to consult the site's terms of use for more information on the user’s rights."
         }
     },
     "PAGES" : {
       "MORE-ABOUT-US": {
-        "TITLE": "More About Us"
+        "TITLE": "More About Us",
+        "INTRODUCTION": "The idea for Gazouyi was born out of the research of the Laboratoire de Sciences Cognitives et Psycholinguistique at the Ecole Normale Superieure, with the intention to develop brain-inspired machine learning algorithms to understand how infants learn languages. Xuan Nga, a researcher at the lab and also a mother, foresaw the extraordinary educational potential of these language learning algorithms to help families with young children. Having experienced first-hand the overwhelming uncertainty but also the immense joys of parenthood, she wanted to provide new parents with a research-backed, professionally-guided tool that would help give them the means to create a brighter future for their children. The project evolved to include research from other areas of development but the goal remained the same. This is our humble attempt at making the research available to all families without being restricted by the expensive costs associated with similar services.",
+        "PERSON1":{
+          "IMG":{
+            "SRC": "assets/images/profiles/victor_Dherbemont.png",
+            "ALT": "victor d'herbemont, ceo of Gazouyi"
+          },
+          "NAME": "Victor D'herbemont",
+          "POSITION": "CEO and Co-founder of  Gazouyi",
+          "DESCRIPTION": "Victor graduated from Centrale-Supélec, one of the top French engineering schools. He was a co-founder of <a href=\"https://www.deepnews.ai\">DeepNews</a> a start-up specialized in the use IA to score news stories. The project was funded by the Google DNI Fund and Stanford University. During his time at deepnews, Victor implemented the algorithms and set up the product technology."
+        },
+        "PERSON2":{
+          "IMG":{
+            "SRC": "assets/images/profiles/xuan-nga_cao.png",
+            "ALT": "Xuan Nga, coo of Gazouyi"
+          },
+          "NAME": "Xuan-Nga Cao",
+          "POSITION": "COO and Co-founder of Gazouyi",
+          "DESCRIPTION": "Xuan-Nga received her pHD in linguistics at City University of New York and worked as a research engineer in the <a href=\"http://www.syntheticlearner.net\">CoML</a> team. She is a co-founder of <a href=\"http://www.langinnov.com\">LangInnov</a>, a company whose mission is to develop assessment materials for the bilingual population in the US. She has an extensive experience in project management and product development working in various start-ups."
+        }
+      },
+      "CONTACT": {
+          "TITLE": "Get in touch",
+          "SUBTITLE": "We would love to hear from you!",
+          "IMG": {
+            "SRC": "assets/images/illus/contact.png",
+            "ALT": "Yellow bird flying amongst clouds carrying a letter"
+          },
+          "PHONE":{
+            "IMG":{
+              "SRC": "assets/images/icon/phone.png",
+              "ALT": "mobile phone"
+            },
+            "NUMBER": "+33 6 52 20 64 18"
+          },
+          "EMAIL":{
+            "IMG":{
+              "SRC": "assets/images/icon/email.png",
+              "ALT": "letter"
+            },
+            "ADDRESS": "contact@gazouyi.com"
+          },
+          "LOCATION":{
+            "IMG":{
+              "SRC": "assets/images/icon/location.png",
+              "ALT": "location pin"
+            },
+            "ADDRESS1": "2 Rue Simone Iff",
+            "ADDRESS2": "75012 Paris, France"
+          }
       }
     }
 }
