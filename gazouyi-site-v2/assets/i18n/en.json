@@ -108,7 +108,11 @@
     "HOME" : {
         "INTRO": {
             "CATCHPHRASE": "Your <i>smart</i> companion in supporting your child from first chirp to first flight",
-            "BTN": "Subscribe"
+            "BTN": "Subscribe",
+            "IMG": {
+              "SRC": "/assets/images/backgrounds/home01.png",
+              "ALT": "two babies sitting on circles."
+            }
         },
         "ABOUT-REVERSE": {
             "TITLE": "[gæzuˈji:]",
