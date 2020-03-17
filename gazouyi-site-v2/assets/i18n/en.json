@@ -110,7 +110,7 @@
             "CATCHPHRASE": "Your <i>smart</i> companion in supporting your child from first chirp to first flight",
             "BTN": "Subscribe",
             "IMG": {
-              "SRC": "/assets/images/illus/home01.png",
+              "SRC": "assets/images/illus/home01.png",
               "ALT": "two babies sitting on circles."
             }
         },
