@@ -1,0 +1,88 @@
+<section id="footer" class="footer">
+<div class="container-fluid footer" *ngIf="!bMobile; else mobile">
+  <div class="row w-100 py-5">
+    <div class="footer-image col-2 text-center"> <img src="{{ 'SHARED.FOOTER.CONTACT.IMG.SRC' | translate }}" alt="{{ 'SHARED.FOOTER.CONTACT.IMG.ALT' | translate }}"></div>
+    <div class="col-10 d-flex">
+      <div class="col-3 d-flex justify-content-between">
+        <div class="mx-auto">
+          <h6>Products</h6>
+          <ul>
+            <li><a>Baby Logger</a></li>
+            <li><a>Researcher Portal</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-3 d-flex justify-content-between">
+        <div class="mx-auto">
+          <h6>About</h6>
+          <ul>
+            <li><a>Company</a></li>
+            <li><a>Mission & Values</a></li>
+            <li><a>Team</a></li>
+            <li><a>Careers</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-3 d-flex justify-content-between">
+        <div class="mx-auto">
+          <h6>Contact</h6>
+          <ul>
+            <li><a>Send a Message</a></li>
+            <li><a>Request a Demo</a></li>
+            <li><a>Request a Quote</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-3 d-flex justify-content-between">
+        <div class="mx-auto">
+          <h6>Follow Us</h6>
+          <div class="social-icons d-flex pt-2">
+            <a><img src="assets/images/shared/facebook.svg" alt="{{ 'SHARED.FOOTER.CONTACT.IMG.ALT' | translate }}"></a>
+            <a class="mx-3"><img src="assets/images/shared/twitter.svg" alt="{{ 'SHARED.FOOTER.CONTACT.IMG.ALT' | translate }}"></a>
+            <a><img src="assets/images/shared/instagram.svg" alt="{{ 'SHARED.FOOTER.CONTACT.IMG.ALT' | translate }}"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-10 mx-auto">
+      <div class="divider"></div>
+      <div class="row d-flex align-items-center py-3">
+        <div class="col-2 d-flex align-items-center h-100">
+          © {{curDate | date:'yyyy'}} {{ 'SHARED.FOOTER.FOOTNOTE' | translate }}<br>All Rights Reserved
+        </div>
+        <div class="col-8 d-flex align-items-center justify-content-center h-100">
+          <div class="legal-row">
+            <a><span>Terms</span></a>
+            <a class="px-4"><span>Privacy</span></a>
+            <a><span>Cookies</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="row d-flex align-items-center py-3">
+    <div class="col-2 d-flex align-items-center h-100">
+      © {{curDate | date:'yyyy'}} {{ 'SHARED.FOOTER.FOOTNOTE' | translate }}<br>All Rights Reserved
+    </div>
+    <div class="col-8 d-flex align-items-center justify-content-center h-100">
+      <div class="legal-row">
+        <a><span>Terms</span></a>
+        <a class="px-4"><span>Privacy</span></a>
+        <a><span>Cookies</span></a>
+      </div>
+    </div>
+  </div> -->
+</div>
+
+<ng-template #mobile>
+  <div class="jumbotron d-flex flex-column align-items-center footer">
+    <div class="logo">
+      <img src="{{ 'SHARED.FOOTER.CONTACT.IMG.SRC' | translate }}" alt="{{ 'SHARED.FOOTER.CONTACT.IMG.ALT' | translate }}">
+    </div>
+    <p><small>{{ 'SHARED.FOOTER.CONTACT.TEL' | translate }}</small></p>
+    <p><small>{{ 'SHARED.FOOTER.CONTACT.MAIL' | translate }}</small></p>
+  </div>
+</ng-template>
+</section>

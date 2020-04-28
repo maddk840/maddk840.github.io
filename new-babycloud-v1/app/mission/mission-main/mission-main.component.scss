@@ -1,0 +1,46 @@
+#mission-main{
+  .left-row{
+    height: 100vh;
+  }
+  .sticky-wrapper {
+    height: 200vh;
+    margin-bottom: -100vh;
+    // &:last-child{
+    //   height: 100vh;
+    //   margin-bottom: 0;
+    // }
+  }
+
+  .sticky-sticky {
+    position: sticky !important;
+    position: -webkit-sticky;
+    background: white;
+    width: 100%;
+    height: 100vh;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bullet-image{
+    width: 60px;
+    height: 60px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    img{
+      width: 65%;
+      filter: var(--filter-invert);
+    }
+  }
+
+  .mission-image{
+    width: 60%;
+    img{
+      width:100%;
+    }
+  }
+
+
+
+}

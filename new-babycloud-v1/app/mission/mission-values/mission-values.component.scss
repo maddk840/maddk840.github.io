@@ -1,0 +1,22 @@
+#mission-values{
+  background-color: var(--color-quaternary);
+
+  .row{
+    min-height:100vh;
+  }
+
+  .value{
+    background-color: white;
+    box-shadow: var(--box-shadow1);
+    h4{
+      text-align: center;
+    }
+  }
+
+  .value-image{
+    width:50%;
+    img{
+      width:100%;
+    }
+  }
+}
