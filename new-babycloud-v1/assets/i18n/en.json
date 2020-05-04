@@ -1,38 +1,5 @@
 {
     "SHARED": {
-        "HEADER": {
-            "LINKS": [
-                {
-                    "NAME": "Home"
-                },
-                {
-                    "NAME": "About"
-                },
-                {
-                    "NAME": "Research"
-                },
-                {
-                    "NAME": "Team",
-                    "LINKS": [
-                        {
-                            "NAME": "Experts"
-                        },
-                        {
-                            "NAME": "Members"
-                        }
-                    ]
-                },
-                {
-                    "NAME": "Features"
-                },
-                {
-                    "NAME": "Contact us"
-                },
-                {
-                  "NAME":"Blog"
-                }
-            ]
-        },
         "FOOTER": {
             "CONTACT": {
                 "IMG": {
@@ -42,18 +9,65 @@
                 "TEL": "+33-6-52-20-64-18",
                 "MAIL": "info@babycloudlab.com"
             },
-            "FOOTNOTE": "BabyCloud",
+            "FOOTNOTE": {
+                "COPYRIGHT": "©",
+                "OWNER": "Echolalia",
+                "MESSAGE": "All Rights Reserved"
+            },
             "COLUMNS": [
                 {
-                    "TITLE": "Legal",
+                    "TITLE": "Products",
                     "LINKS": [
                         {
-                            "NAME": "Terms of Use",
-                            "HREF": "../pages/terms-of-use"
-                        }
+                            "NAME": "Baby Logger",
+                            "HREF": "../logger"
+                        },
+                        {
+                          "NAME": "Researcher Portal",
+                          "HREF": "../portal"
+                      }
                     ]
-                }
-            ]
+                },
+                {
+                  "TITLE": "Company",
+                  "LINKS": [
+                      {
+                          "NAME": "Mission & Values",
+                          "HREF": "/mission"
+                      },
+                      {
+                          "NAME": "Team",
+                          "HREF": "/team"
+                      },
+                      {
+                          "NAME": "Careers",
+                          "HREF": "/careers"
+                      }
+                  ]
+                },
+                {
+                  "TITLE": "Contact",
+                  "LINKS": [
+                      {
+                          "NAME": "Send a Message",
+                          "HREF": "/contact"
+                      },
+                      {
+                        "NAME": "Request a Demo",
+                        "HREF": "/contact"
+                    },
+                    {
+                      "NAME": "Request a Quote",
+                      "HREF": "/contact"
+                  }
+                  ]
+              }
+            ],
+            "LEGAL-ROW": {
+              "TERMS" : "Terms",
+              "PRIVACY" : "Privacy",
+              "CONTACT" : "Contact"
+            }
         }
     },
     "HOME" : {
@@ -547,35 +561,53 @@
         "TITLE": "Privacy Policy",
         "OUTLINE": [
           {
-            "MAIN_POINT": "Point One",
+            "MAIN_POINT": "",
             "DESCRIPTION": [
               {
-                  "PARAGRAPH": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam, nibh vitae feugiat condimentum, nunc ligula convallis odio, ut rutrum orci mi in quam. Nunc ornare rutrum elementum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur sed dolor euismod, condimentum odio ut, gravida leo. Proin eu aliquet."
+                  "PARAGRAPH": "At <i>Echolalia</i>, accessible at <a href='https://www.echolalia.org'>www.echolalia.org</a>, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains information on how we collect, use, and store your personal information on <a href='https://www.echolalia.org'>echolalia.org</a>."
               },
               {
-                  "PARAGRAPH": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet sollicitudin lorem, non consectetur nulla. Praesent sit amet orci."
+                  "PARAGRAPH": "Please take the time to familiarize yourself with our privacy practices and if you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us at <a href='mailto:contact@echolalia.org'>contact@echolalia.org</a>"
               }
             ]
           },
           {
-            "MAIN_POINT": "Point Two",
+            "MAIN_POINT": "Log File",
             "DESCRIPTION": [
               {
-                  "PARAGRAPH": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac enim nec ligula commodo pellentesque vitae id risus. Fusce consequat turpis ut erat mattis, at luctus lorem viverra."
+                  "PARAGRAPH": "<i>Echolalia</i> follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information."
               }
             ]
           },
           {
-            "MAIN_POINT": "Point Three",
+            "MAIN_POINT": "Cookies and Web Beacons",
             "DESCRIPTION": [
               {
-                  "PARAGRAPH": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere ex libero, quis congue diam consequat in. Aliquam elementum ante vitae felis egestas, sed ullamcorper mauris elementum. Pellentesque."
-              },
+                  "PARAGRAPH": "Like any other website, <a href='https://www.echolalia.org'>echolalia.org</a> uses ‘cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Log File",
+            "DESCRIPTION": [
               {
-                  "PARAGRAPH": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean magna velit, luctus quis laoreet a, bibendum vitae est. Mauris neque erat, ultrices in facilisis id, ornare iaculis nunc. Morbi fermentum cursus justo, at rutrum ipsum. Nulla facilisi. Nulla tempus commodo dolor, quis varius purus pellentesque nec. Ut pellentesque euismod dolor vitae malesuada."
-              },
+                  "PARAGRAPH": "<i>Echolalia</i> follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Online Privacy Policy Only",
+            "DESCRIPTION": [
               {
-                  "PARAGRAPH": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc massa urna, sollicitudin sed felis nec, aliquet."
+                  "PARAGRAPH": "This privacy policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in <a href='https://www.echolalia.org'>echolalia.org</a>. This policy is not applicable to any information collected offline or via channels other than this website."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Consent",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "By using our website, you hereby consent to our Privacy Policy and agree to its Terms and Conditions (see our Terms and Conditions document for more information)."
               }
             ]
           }
