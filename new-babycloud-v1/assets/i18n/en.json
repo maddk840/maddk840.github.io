@@ -71,6 +71,94 @@
         }
     },
     "HOME" : {
+        "HERO" : {
+          "HEADING" : "Secure, web-based AI tools for all your language research projects",
+          "SUBHEADING" : "Custom wearable language loggers, secure cloud storage, and a web app for using AI to process and analyze your language files",
+          "BUTTON" : "Request Quote"
+        },
+        "ABOUT" : {
+          "DESCRIPTION" : [
+            {
+              "PARAGRAPH" : "The Echolalia Project aims to promote data collection, sharing, and analyzing of behavioral data to study language development in infants. The project focuses on creating community-improved, open-source, state-of-the-art Machine Learning tools to securely store, manage, analyze and share daylong audio and related data while respecting the privacy of the families."
+            },
+            {
+              "PARAGRAPH" : "This project rests on an international network of researchers in Europe, America and Asia. It's operational quarters are currently at the Ecole Normale Supérieure in Paris. It has been funded by CNR, INRIA, NSF, ANR, MSR, Facebook and Amazon."
+            }
+          ]
+        },
+        "PRODUCTS" : {
+          "LOGGER" : {
+            "TITLE" : "Baby Logger",
+            "INFO" : "A small, user-friendly, baby-compatible, wearable audio recorder. It has 4 channels, an accelerometer, 24 hours of recording autonomy, stores up to 120h of data and is encrypted. With the logger comes a set of tools to extract and decrypt the data.",
+            "BUTTON" : "Learn More"
+          },
+          "PORTAL" : {
+            "TITLE" : "Researcher Portal",
+            "INFO" : "A cloud platform for annotating, analyzing and archiving audio data with secure state-of-the-art machine learning tools (signal processing, speech recognition). The data is stored encrypted, the analysis is performed in the cloud itself and can be securely shared and analyzed in situ insuring end-to-end privacy.",
+            "BUTTON" : "Learn More"
+          }
+        },
+        "DISTRIBUTION" : {
+          "TITLE" : "We distribute these components in two ways:",
+          "ONE" : {
+            "TITLE" : "Open source code and hardware",
+            "INFO" : "Both the BabyLogger schematics and code, and the modules of the ResearcherPortal are open source and can be reproduced and modified (MIT open source license, see our GitHub). Contributors are welcome."
+          },
+          "TWO" : {
+            "TITLE" : "Ready to use devices and web service",
+            "INFO" : "We have setup a non-profit (BabyCloud-NP) which distributes at the lowest possible cost, but without putting a non-sustainable burden on the research labs contributing to this project, the Echolalia components for the non-technical savy behavioral scientist. It helps researchers group order BabyLoggers in order to lower the construction price, gives them access to an on-line version of the ResearcherPortal running on a local GDPR-compliant cloud in Europe, and some customer support."
+          },
+          "BUTTON" : "Our Mission & Values"
+        },
+        "CONTACT" : {
+          "TITLE" : "Interested?",
+          "LINK" : "Contact Us!"
+        },
+        "SUPPORTER": {
+          "SUPPORTERS": [
+              {
+                  "SRC": "assets/images/home/logo-amazon.svg",
+                  "ALT": "Amazon Logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-anr.svg",
+                  "ALT": "Agence Nationale de la Recherche (ANR) Logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-cnrs.svg",
+                  "ALT": "Centre national de la recherche scientifique (CNRS) logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-ehess.svg",
+                  "ALT": "École des hautes études en sciences sociales (EHESS) logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-ens.svg",
+                  "ALT": "École normale supérieure (ENS) logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-facebook.svg",
+                  "ALT": "Facebook logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-inria.svg",
+                  "ALT": "INRIA Logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-microsoft.svg",
+                  "ALT": "Microsoft logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-nsf.svg",
+                  "ALT": "National Science Foundation (NSF) logo"
+              }
+          ]
+      },
+
+
+
+
+
         "INTRO": {
             "CATCHPHRASE": "RAISE A HEALTHIER AND SMARTER CHILD",
             "BTN-START": "Find out more",
@@ -267,69 +355,405 @@
                     "DESCRIPTION": "Ultimately, your contribution will help many children impacted by language or cognitive disorders worldwide."
                 }
             ]
-        },
-        "SUPPORTER": {
-            "SUPPORTERS": [
-                {
-                    "SRC": "assets/images/home/logo-amazon.svg",
-                    "ALT": "Amazon Logo"
-                },
-                {
-                    "SRC": "assets/images/home/logo-anr.svg",
-                    "ALT": "Agence Nationale de la Recherche (ANR) Logo"
-                },
-                {
-                    "SRC": "assets/images/home/logo-cnrs.svg",
-                    "ALT": "Centre national de la recherche scientifique (CNRS) logo"
-                },
-                {
-                    "SRC": "assets/images/home/logo-ehess.svg",
-                    "ALT": "École des hautes études en sciences sociales (EHESS) logo"
-                },
-                {
-                    "SRC": "assets/images/home/logo-ens.svg",
-                    "ALT": "École normale supérieure (ENS) logo"
-                },
-                {
-                    "SRC": "assets/images/home/logo-facebook.svg",
-                    "ALT": "Facebook logo"
-                },
-                {
-                    "SRC": "assets/images/home/logo-inria.svg",
-                    "ALT": "INRIA Logo"
-                },
-                {
-                    "SRC": "assets/images/home/logo-microsoft.svg",
-                    "ALT": "Microsoft logo"
-                },
-                {
-                    "SRC": "assets/images/home/logo-nsf.svg",
-                    "ALT": "National Science Foundation (NSF) logo"
-                }
-            ]
-        },
-        "NEWSLETTER": {
-            "CATCHPHRASE": "Interested in our project?",
-            "DESCRIPTION": "If you want try the BabyCloud app, register for beta test via this link. If you have any questions, recommandations or just want to chat, please send us an email at info@babycloudlab.com",
-            "BTN-PROFILE": "Profile",
-            "MSG-INVALID-MAIL": "Please enter a valid email address",
-            "PROFILES": [
-                {
-                    "NAME": "Parent",
-                    "VALUE": "parent"
-                },
-                {
-                    "NAME": "Researcher",
-                    "VALUE": "researcher"
-                },
-                {
-                    "NAME": "Investor",
-                    "VALUE": "investor"
-                }
-            ],
-            "BTN-SEND": "Subscribe",
-            "DISCLAIMER": "If you want try the BabyCloud app, register for beta test via this link. If you have any questions, recommandations or just want to chat, please send us an email at info[at]babycloudlab[dot]com"
         }
+    },
+    "MISSION" : {
+      "MAIN" : {
+        "TITLE" : "Our Mission",
+        "SUBTITLE" : "Promote collection and analysis of behavioral data for the purpose of behavioral data in order to:",
+        "ONE" : "contribute to fundamental research on cognitive development and functioning",
+        "TWO" : "contribute to applied research aimed at solving major societal challenges (well-being, education, health, etc.)",
+        "DESCRIPTION" : [
+          {
+            "PARAGRAPH" : "We help data collection through the building or improvement of secure wearable devices (audio, physiological, images, etc) that enable daylong recording of human interactions and activities in their 'ecological' environments. We help analysis through the development or improvement of annotation software and machine learning algorithms that can be applied at scale in these data. Both sets of technologies are build according to open science and privacy-by-design principles to ensure both maximum reusability, sharability and replicability of the scientific findings and maximum privacy and confidentiality of the participants' data."
+          }
+        ]
+      },
+      "VALUES" : {
+        "ONE" : {
+          "TITLE" : "Interdisciplinarity",
+          "INFO" : "We believe that behavioral research and machine learning are engaged in a synergistic, interdisciplinary, collaborative relationship which is going to bring incredible societal and scientific value for education, health and well being, when done right. We strive to help this relationship in the particular instance of early cognitive development, but believe that our model can be exported for other areas of behavioral studies."
+        },
+        "TWO" : {
+          "TITLE" : "Open Science",
+          "INFO" : "We believe in open, transparent, reproducible, and collaborative science both for data and for algorithms, as is demultiplies the spread of scientific knowledge and its impact on real life problems. This is why we open source all of our tools, and build technology to share data or models across researchers in a secure fashion."
+        },
+        "THREE" : {
+          "TITLE" : "Privacy by Design",
+          "INFO" : "We believe that parents, families, children, communities participating in behavioral studies should be considered as stakeholders of the process of making scientific progress and therefore treated as partners. This is why, while we build tools to increase data collection volume  and depth of analysis through AI, we counterbalance this  by strenghtening privacy protection and empowering participants with control and insight over their own data."
+        }
+
+      }
+    },
+    "LOGGER" : {
+      "MAIN" : {
+        "TITLE" : "Baby Logger",
+        "SUBTITLE" : "The babyLogger is a user-friendly, baby-compatible, wearable audio recorder.",
+        "BUTTON1" : "Documentation",
+        "BUTTON2" : "Request Quote"
+      },
+      "SPECS" : {
+        "SPEC" : [
+          {
+            "IMG" : {
+              "SRC" : "assets/images/logger/four-channels.svg",
+              "ALT" : "four audio channel mixer switches"
+            },
+            "TEXT" : "4 audio channels (16 bits, 16kHz)"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/logger/xyz.svg",
+              "ALT" : "box with arrows pointing along x y and z axes"
+            },
+            "TEXT" : "XYZ accelerometer (100Hz)"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/logger/battery.svg",
+              "ALT" : "battery with charging cord"
+            },
+            "TEXT" : "No waves are emitted"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/logger/memory.svg",
+              "ALT" : "sd card with 120h written in it"
+            },
+            "TEXT" : "24 hours of recording autonomy; charging time around 2 hours"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/logger/no-waves.svg",
+              "ALT" : "wave inside a circle with line crossing it out"
+            },
+            "TEXT" : "Stores up to 120h of data on a removable micro-SD card"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/logger/encryption.svg",
+              "ALT" : "lock with data behind it, unencrypted to the left encrypted to the right"
+            },
+            "TEXT" : "Encrypted (if the logger or SD card is lost or stolen, the privacy is protected)"
+          }
+        ]
+      },
+      "MORE" : {
+        "ONE" : {
+          "TITLE" : "To know more, look at the documentation.",
+          "SUBTITLE" : "",
+          "BUTTON": "Documentation",
+          "HREF" : "HTTPS://WWW.GOOGLE.COM"
+        },
+        "TWO" : {
+          "TITLE" : "If you are interested in the technical detail and/or want to contribute to improving the logger, here is our logger github.",
+          "SUBTITLE" : "",
+          "BUTTON": "Github",
+          "HREF" : "HTTPS://WWW.GITHUB.COM"
+        },
+        "THREE" : {
+          "TITLE" : "If you are interested to have loggers constructed, please fill this form for a quote.",
+          "SUBTITLE" : "The price we can get varies a lot on the number of devices that are constructed in a batch. The larger the batches are, the less expensive it gets.",
+          "BUTTON": "Request a Quote"
+        }
+      }
+    },
+    "PORTAL" : {
+      "MAIN" : {
+        "TITLE" : "Researcher Portal",
+        "SUBTITLE" : "The researcher portal is an on-going development integrating open source software to help researchers annotate, analyse and store increasingly large amounts of data. We use a modular architecture, whereby new analyses modules can be added, on a project by project basis, and data across projects can be pooled to improve the analysis tools using secure AI techniques (federated learning, blockchain for traceability of analyses, differential privacy, etc). We are planning to develop three functionalities.",
+        "BUTTON1" : "Documentation",
+        "BUTTON2" : "Request Quote"
+      },
+      "SPECS" : {
+        "ONE" : {
+          "TITLE" : "Automatic analysis <span><br>(beta version)</span>",
+          "TEXT" : "We believe that behavioral research and machine learning are engaged in a synergistic, interdisciplinary, collaborative relationship which is going to bring incredible societal and scientific value for education, health and well being, when done right. We strive to help this relationship in the particular instance of early cognitive development, but believe that our model can be exported for other areas of behavioral studies."
+        },
+        "TWO" : {
+          "TITLE" : "Human annotation<br>campaign <span>(under development)</span>",
+          "TEXT" : "We believe in open, transparent, reproducible, and collaborative science both for data and for algorithms, as is demultiplies the spread of scientific knowledge and its impact on real life problems. This is why we open source all of our tools, and build technology to share data or models across researchers in a secure fashion."
+        },
+        "THREE" : {
+          "TITLE" : "Long term secure storage <span>(TBA)</span>",
+          "TEXT" : "We believe that parents, families, children, communities participating in behavioral studies should be considered as stakeholders of the process of making scientific progress and therefore treated as partners. This is why, while we build tools to increase data collection volume  and depth of analysis through AI, we counterbalance this  by strenghtening privacy protection and empowering participants with control and insight over their own data."
+        }
+      },
+      "MORE" : {
+        "ONE" : {
+          "TITLE" : "To know more, look at the documentation.",
+          "SUBTITLE" : "",
+          "BUTTON": "Documentation",
+          "HREF" : "HTTPS://WWW.GOOGLE.COM"
+        },
+        "TWO" : {
+          "TITLE" : "If you are interested in the technical detail and/or want to contribute to improving the logger, here is our logger github.",
+          "SUBTITLE" : "",
+          "BUTTON": "Github",
+          "HREF" : "HTTPS://WWW.GITHUB.COM"
+        },
+        "THREE" : {
+          "TITLE" : "If you are interested to have loggers constructed, please fill this form for a quote.",
+          "SUBTITLE" : "The price we can get varies a lot on the number of devices that are constructed in a batch. The larger the batches are, the less expensive it gets.",
+          "BUTTON": "Request a Quote"
+        }
+      }
+    },
+    "TEAM" : {
+      "MAIN" : {
+        "TITLE" : "Our Team",
+        "SUBTITLE" : "We are an international consortium of researchers interested in developing tools for the behavioral sciences.",
+        "SECTION" : "Operational Team",
+        "MEMBERS" : [
+          {
+            "IMG" : {
+              "SRC" : "assets/images/team/eDupoux.jpg",
+              "ALT" : "image of Emmanuel Dupoux"
+            },
+            "NAME" : "Emmanuel Dupoux",
+            "DESCRIPTION" : "Project Leader"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/team/xCao.jpg",
+              "ALT" : "image of Xuan-Nga Cao"
+            },
+            "NAME" : "Xuan-Nga Cao",
+            "DESCRIPTION" : "Project Manager"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/team/mKhentout.jpg",
+              "ALT" : "image of Manel Khentout"
+            },
+            "NAME" : "Manel Khentout",
+            "DESCRIPTION" : "Engineer"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/team/nHamilakis.jpg",
+              "ALT" : "image of Nick Hamilakis"
+            },
+            "NAME" : "Nick Hamilakis",
+            "DESCRIPTION" : "Engineer"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/team/mLavechin.jpg",
+              "ALT" : "image of Marvin Lavechin"
+            },
+            "NAME" : "Marvin Lavechin",
+            "DESCRIPTION" : "Engineer"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/team/kMadden.jpg",
+              "ALT" : "image of Kris Madden"
+            },
+            "NAME" : "Kris Madden",
+            "DESCRIPTION" : "Designer"
+          }
+        ]
+      },
+      "OTHERS" : {
+        "TITLE1" : "Scientific Advisors",
+        "MEMBERS1" : [
+            {
+              "IMG" : {
+                "SRC" : "assets/images/team/team-member-female-1.jpg",
+                "ALT" : ""
+              },
+              "NAME" : "Advisor Name",
+              "DESCRIPTION" : "University"
+            },
+            {
+              "IMG" : {
+                "SRC" : "assets/images/team/team-member-female-3.jpg",
+                "ALT" : ""
+              },
+              "NAME" : "Advisor Name",
+              "DESCRIPTION" : "University"
+            },
+            {
+              "IMG" : {
+                "SRC" : "assets/images/team/team-member-male-1.jpg",
+                "ALT" : ""
+              },
+              "NAME" : "Advisor Name",
+              "DESCRIPTION" : "University"
+            }
+        ],
+        "TITLE2" : "Beta Testers",
+        "MEMBERS2" : [
+          {
+            "IMG" : {
+              "SRC" : "assets/images/team/team-member-male-2.jpg",
+              "ALT" : ""
+            },
+            "NAME" : "Tester Name",
+            "DESCRIPTION" : "University"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/team/team-member-female-2.jpg",
+              "ALT" : ""
+            },
+            "NAME" : "Tester Name",
+            "DESCRIPTION" : "University"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/team/team-member-female-1.jpg",
+              "ALT" : ""
+            },
+            "NAME" : "Tester Name",
+            "DESCRIPTION" : "University"
+          }
+        ]
+      },
+      "JOIN" : {
+        "TITLE" : "Join Our Team",
+        "SUBTITLE" : "We welcome volunteers, contributors to the code, beta testers. We also have job offers.",
+        "LINK" : "Contact us here!",
+        "BUTTON" : "View Jobs"
+      }
+    },
+    "CAREERS" : {
+      "MAIN" : {
+        "TITLE" : "We're Hiring",
+        "SUBTITLE" : "Full-time, Part-time, Volunteers, and Interns"
+      },
+      "OPEN" : {
+        "TITLE" : "We are always open to meeting new people!",
+        "SUBTITLE" : "Don’t see a position that fits your profile? No problem! Our team is always growing, feel free to get in touch at",
+        "EMAIL" : "careers@otis-platform.com"
+      },
+      "JOBS" : {
+        "TITLE" : "Open Positions",
+        "GENERAL": {
+          "ABOUT-US" : {
+            "TITLE" : "About Us",
+            "DESCRIPTION" : [
+              {
+                "PARAGRAPH" : "The Laboratory of Cognitive and Psycholinguistic Sciences (LSCP) is located in Paris in the Department of Cognitive Studies of the École Normale Supérieure. The goal of research at LSCP is to understand the psychological mechanisms that underlie the acquisition and functioning of typically human cognitive functions, such as language, social cognition and consciousness."
+              },
+              {
+                "PARAGRAPH" : "Integrated into the LSCP, the goal of the Cognitive Machine Learning (CoML) team is to reverse engineer these human capacities, that is to say to develop algorithms that can reproduce certain aspects and test their validity as models of human cognition. The team's activities are centered on speech, language and reasoning."
+              }
+            ]
+          },
+          "JOB-DESCRIPTION" : {
+            "TITLE" : "What we're looking for"
+          },
+          "ROLE" : {
+            "TITLE" : "What this role involves:"
+          },
+          "SOMETHING" : {
+            "TITLE" : "We’re looking for someone who is:"
+          }
+
+
+        },
+        "JOB" : [
+          {
+            "POSITION" : "Machine Learning Engineer Internship",
+            "LEVEL" : "Full-time Internship Level M1",
+            "LOCATION" : "Paris",
+            "JOB-DESCRIPTION" : {
+              "DESCRIPTION" : [
+                {
+                  "PARAGRAPH" : "We're hiring for BabyCloud! Our BabyCloud team is responsible for managing our releases and environments, monitoring/alerting, CI/CD pipelines, packaging and integration technologies for delivery our product to our customers, and developer ergonomics. As a member of this team, you'll own the process of bundling our application into a fault-tolerant deliverable that can interact with a multitude of client environments, all while using modern DevOps technologies and processes."
+                },
+                {
+                  "PARAGRAPH" : "The role of the recruited engineer will be to contribute to the design and ergonomic optimization of the existing application. He / she will be in charge of the visual identity of the application through the graphic charter, the creation and the layout of the graphic elements and the user experience (UX)."
+                }
+              ]
+            },
+            "ROLE" : {
+              "DESCRIPTION" : [
+                {
+                  "PARAGRAPH" : "Creation of websites, landing pages, themes, email templates, checkout flows, billing UI. Designing and building many of our most public facing properties. The visual voice of the company."
+                },
+                {
+                  "PARAGRAPH" : "Working with design and marketing teams to define, evolve, and maintain Ghost's brand identity across all marketing and product touch points."
+                },
+                {
+                  "PARAGRAPH" : "Working with the marketing/business team on projects which are directly related to growing the business and creating user-facing content."
+                },
+                {
+                  "PARAGRAPH" : "We work on cross-functional product teams of 2-5 people, usually one designer and a few developers."
+                },
+                {
+                  "PARAGRAPH" : "Lots of freedom to take control of your process, iterating and learning what works (and what doesn't), and putting your work into production. There's a lot of opportunity for professional growth here, as the team expands."
+                },
+                {
+                  "PARAGRAPH" : "Communicating effectively with stakeholders when presenting your work and clearly articulating your design rationale"
+                },
+                {
+                  "PARAGRAPH" : "Managing multiple projects, while setting appropriate expectations and meeting realistic deadlines"
+                }
+              ]
+            },
+            "SOMETHING" : {
+              "DESCRIPTION" : [
+                {
+                  "BOLD" : "Very comfortable with code.",
+                  "PARAGRAPH" : "BabyCloud is a software company, and everyone here codes in one way or another. You'll need to be comfortable with coding your designs in modern HTML & CSS."
+                },
+                {
+                  "BOLD" : "Fiercely independent.",
+                  "PARAGRAPH" : "All teams at BabyCloud operate fairly autonomously, and all team members are responsible for helping make decisions about what needs to be done. You'll need to be comfortable ideating, prototyping, testing and delivering designs without someone standing over your shoulder telling you what to do."
+                },
+                {
+                  "BOLD" : "Meticulous about style.",
+                  "PARAGRAPH" : "Despite frequent character assassination amongst UX professionals, aesthetic style matters a great deal. We don't A/B test 50 shades of blue here to determine what converts best, we care about making beautiful things which we love."
+                },
+                {
+                  "BOLD" : "Humble but opinionated.",
+                  "PARAGRAPH" : "We like smart people who have lots of ideas, yet are happy to discard their former opinions whenever a better way of doing things presents itself."
+                },
+                {
+                  "BOLD" : "A clear communicator.",
+                  "PARAGRAPH" : "Good design is good communication, and as a remote team which communicates almost exclusively through writing — concise, written communication is absolutely essential to this role."
+                },
+                {
+                  "BOLD" : "An active collaborator.",
+                  "PARAGRAPH" : "We look for people who actively want critical feedback on their work early and often, and who get a kick out of refining and pushing what they do as a collaborative process because it creates a better end result. No design heroes."
+                },
+                {
+                  "BOLD" : "Hungry for meaningful work, and space to do it.",
+                  "PARAGRAPH" : "Almost all work at BabyCloud is complex and extremely challenging - but also deeply rewarding. We're not in the slightest bit fucking interested in what Design-Twitter thinks about... well, anything at all really. We're aggressively uncool."
+                }
+              ]
+            }
+          }
+        ],
+        "APPLY" : {
+          "TITLE" : "",
+          "SUBTITLE" : "",
+          "FIRST-NAME" : "First Name",
+          "SECOND-NAME" : "Last Name",
+          "EMAIL" : "Work Email",
+          "PHONE" : "Phone",
+          "CV" : "CV / Resume",
+          "COVER-LETTER" : "Cover Letter",
+          "MESSAGE" : "Attach File",
+          "CONFIRMATION" : "Your application has been submitted. Thank you!"
+        }
+      }
+    },
+    "CONTACT" : {
+      "LEFT" : {
+        "TITLE" : "Get in Touch",
+        "ADDRESS1" : "2 Rue Simone Iff",
+        "ADDRESS2" : "75012 Paris, France",
+        "PHONE" : "+33 6 00 00 00 00",
+        "EMAIL" : "contact@echolalia.org"
+      },
+      "RIGHT" : {
+
+      }
+
     },
     "PAGES" : {
       "CAREERS": {
