@@ -654,11 +654,15 @@
           "ROLE" : {
             "TITLE" : "What this role involves:"
           },
-          "SOMETHING" : {
+          "CANDIDATES" : {
             "TITLE" : "We’re looking for someone who is:"
+          },
+          "APPLY" : {
+            "TITLE" : "Apply!",
+            "SUBTITLE" : "If you think this role is for you, please send us your CV/resume. We do not require a cover letter, but you may send one to support your application if you wish to do so.",
+            "EMAIL-US" : "Send your application to ",
+            "EMAIL" : "contact@echolalia.org"
           }
-
-
         },
         "JOB" : [
           {
