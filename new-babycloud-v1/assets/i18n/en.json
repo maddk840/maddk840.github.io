@@ -7,7 +7,7 @@
                     "ALT": ""
                 },
                 "TEL": "+33-6-52-20-64-18",
-                "MAIL": "info@babycloudlab.com"
+                "MAIL": "info@echolalia.org"
             },
             "FOOTNOTE": {
                 "COPYRIGHT": "©",
@@ -106,7 +106,7 @@
           },
           "TWO" : {
             "TITLE" : "Ready to use devices and web service",
-            "INFO" : "We have setup a non-profit (BabyCloud-NP) which distributes at the lowest possible cost, but without putting a non-sustainable burden on the research labs contributing to this project, the Echolalia components for the non-technical savy behavioral scientist. It helps researchers group order BabyLoggers in order to lower the construction price, gives them access to an on-line version of the ResearcherPortal running on a local GDPR-compliant cloud in Europe, and some customer support."
+            "INFO" : "We have setup a non-profit (Echolalia-NP) which distributes at the lowest possible cost, but without putting a non-sustainable burden on the research labs contributing to this project, the Echolalia components for the non-technical savy behavioral scientist. It helps researchers group order BabyLoggers in order to lower the construction price, gives them access to an on-line version of the ResearcherPortal running on a local GDPR-compliant cloud in Europe, and some customer support."
           },
           "BUTTON" : "Our Mission & Values"
         },
@@ -151,6 +151,10 @@
               {
                   "SRC": "assets/images/home/logo-nsf.svg",
                   "ALT": "National Science Foundation (NSF) logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-psl.svg",
+                  "ALT": "Université Paris Sciences et Lettres (PSL) logo"
               }
           ]
       },
@@ -174,7 +178,7 @@
                 "PARAGRAPH": "These early acquisitions lay the foundation for later academic, personal and professional achievements."
             },
             {
-                "PARAGRAPH": "BabyCloud helps your family and your child, to make the most of this critical developmental period."
+                "PARAGRAPH": "Echolalia helps your family and your child, to make the most of this critical developmental period."
             }
           ]
         },
@@ -182,7 +186,7 @@
             "TITLE": "Simple but indispensable",
             "DESCRIPTION": [
               {
-                  "PARAGRAPH": "BabyCloud is a mobile application that documents, tracks, and helps to improve upon your child’s natural development."
+                  "PARAGRAPH": "Echolalia is a mobile application that documents, tracks, and helps to improve upon your child’s natural development."
               },
               {
                   "PARAGRAPH": "We use cutting-edge technology in AI and cognitive sciences to analyze your child's learning path and propose personalized content to activate his full potential."
@@ -194,7 +198,7 @@
           "VIDEO-BTN": "More Infomation",
           "DESCRIPTION": [
             {
-                "PARAGRAPH": "We have designed BabyCloud to use the highest cyber security standards available proposed by the biggest institutions in the world (CNIL, MIT, American army) to protect your privacy."
+                "PARAGRAPH": "We have designed Echolalia to use the highest cyber security standards available proposed by the biggest institutions in the world (CNIL, MIT, American army) to protect your privacy."
             },
             {
                 "PARAGRAPH": "Our security system is regularly tested by third parties to insure and protect your privacy."
@@ -243,7 +247,7 @@
                   "PARAGRAPH": "Parents, you have the opportunity to take part in our scientific research to establish pioneering quantitative standards and predictive models!"
               },
               {
-                  "PARAGRAPH": "Your contribution helps BabyCloud develop tools for early diagnosis of speech delays as well as more efficient intervention programs. These programs will help many children impacted by language or cognitive disorders worldwide."
+                  "PARAGRAPH": "Your contribution helps Echolalia develop tools for early diagnosis of speech delays as well as more efficient intervention programs. These programs will help many children impacted by language or cognitive disorders worldwide."
               }
             ]
         },
@@ -256,7 +260,7 @@
                         "ALT": "Photograph of Emmanuel Dupoux"
                     },
                     "NAME": "Dr. Emmanuel Dupoux",
-                    "DESCRIPTION": "Creator of Babycloud & Speech Technology specialist "
+                    "DESCRIPTION": "Creator of Echolalia & Speech Technology specialist "
                 },
                 {
                     "IMG": {
@@ -276,11 +280,11 @@
                 }
             ],
             "EVERYONE": {
-              "TITLE": "The whole BabyCloud gang",
+              "TITLE": "The whole Echolalia gang",
               "BTN-TEAM": "Meet the team",
               "IMG": {
                 "SRC": "assets/images/avtar/team.jpg",
-                "ALT": "Photograph of the BabyCloud team"
+                "ALT": "Photograph of the Echolalia team"
               }
             }
 
@@ -293,7 +297,7 @@
                       "SRC": "assets/images/icon/microphone.png",
                       "ALT": "Illustration of a microphone"
                   },
-                  "DESCRIPTION": "Track and record each of your child's different cognitive milestones directly on your phone with BabyCloud's cutting edge technology"
+                  "DESCRIPTION": "Track and record each of your child's different cognitive milestones directly on your phone with Echolalia's cutting edge technology"
               },
               {
                   "IMG": {
@@ -307,12 +311,12 @@
                       "SRC": "assets/images/icon/researcher.png",
                       "ALT": "Illustration of a researcher"
                   },
-                  "DESCRIPTION": "Use individually selected content created by BabyCloud's developmental specialists to target your child's particular areas of improvement."
+                  "DESCRIPTION": "Use individually selected content created by Echolalia's developmental specialists to target your child's particular areas of improvement."
               }
           ]
       },
         "FEATURE": {
-            "TITLE": "The first steps with Babycloud",
+            "TITLE": "The first steps with Echolalia",
             "STEPS": [
                 {
                     "IMG": {
@@ -390,6 +394,7 @@
         "TITLE" : "Baby Logger",
         "SUBTITLE" : "The babyLogger is a user-friendly, baby-compatible, wearable audio recorder.",
         "BUTTON1" : "Documentation",
+        "BUTTON1-LINK" : "https://www.google.com/search?client=firefox-b-d&ei=lBa5XtKTMYe0Uoyop_gM&q=documentation&oq=documentation&gs_lcp=CgZwc3ktYWIQAzIFCAAQkQIyBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMggIABCRAhCLAzoECAAQR1D3E1j3E2DIFWgAcAN4AIABRogBRpIBATGYAQCgAQGqAQdnd3Mtd2l6uAEB&sclient=psy-ab&ved=0ahUKEwjSrcDGu6vpAhUHmhQKHQzUCc8Q4dUDCAs&uact=5",
         "BUTTON2" : "Request Quote"
       },
       "SPECS" : {
@@ -463,6 +468,7 @@
         "TITLE" : "Researcher Portal",
         "SUBTITLE" : "The researcher portal is an on-going development integrating open source software to help researchers annotate, analyse and store increasingly large amounts of data. We use a modular architecture, whereby new analyses modules can be added, on a project by project basis, and data across projects can be pooled to improve the analysis tools using secure AI techniques (federated learning, blockchain for traceability of analyses, differential privacy, etc). We are planning to develop three functionalities.",
         "BUTTON1" : "Documentation",
+        "BUTTON1-LINK" : "https://www.google.com/search?client=firefox-b-d&ei=lBa5XtKTMYe0Uoyop_gM&q=documentation&oq=documentation&gs_lcp=CgZwc3ktYWIQAzIFCAAQkQIyBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMggIABCRAhCLAzoECAAQR1D3E1j3E2DIFWgAcAN4AIABRogBRpIBATGYAQCgAQGqAQdnd3Mtd2l6uAEB&sclient=psy-ab&ved=0ahUKEwjSrcDGu6vpAhUHmhQKHQzUCc8Q4dUDCAs&uact=5",
         "BUTTON2" : "Request Quote"
       },
       "SPECS" : {
@@ -626,10 +632,10 @@
       "OPEN" : {
         "TITLE" : "We are always open to meeting new people!",
         "SUBTITLE" : "Don’t see a position that fits your profile? No problem! Our team is always growing, feel free to get in touch at",
-        "EMAIL" : "careers@otis-platform.com"
+        "EMAIL" : "contact@echolalia.org"
       },
       "JOBS" : {
-        "TITLE" : "Open Positions",
+        "TITLE" : "Available Positions",
         "GENERAL": {
           "ABOUT-US" : {
             "TITLE" : "About Us",
@@ -659,73 +665,126 @@
             "POSITION" : "Machine Learning Engineer Internship",
             "LEVEL" : "Full-time Internship Level M1",
             "LOCATION" : "Paris",
-            "JOB-DESCRIPTION" : {
-              "DESCRIPTION" : [
-                {
-                  "PARAGRAPH" : "We're hiring for BabyCloud! Our BabyCloud team is responsible for managing our releases and environments, monitoring/alerting, CI/CD pipelines, packaging and integration technologies for delivery our product to our customers, and developer ergonomics. As a member of this team, you'll own the process of bundling our application into a fault-tolerant deliverable that can interact with a multitude of client environments, all while using modern DevOps technologies and processes."
-                },
-                {
-                  "PARAGRAPH" : "The role of the recruited engineer will be to contribute to the design and ergonomic optimization of the existing application. He / she will be in charge of the visual identity of the application through the graphic charter, the creation and the layout of the graphic elements and the user experience (UX)."
-                }
-              ]
-            },
-            "ROLE" : {
-              "DESCRIPTION" : [
-                {
-                  "PARAGRAPH" : "Creation of websites, landing pages, themes, email templates, checkout flows, billing UI. Designing and building many of our most public facing properties. The visual voice of the company."
-                },
-                {
-                  "PARAGRAPH" : "Working with design and marketing teams to define, evolve, and maintain Ghost's brand identity across all marketing and product touch points."
-                },
-                {
-                  "PARAGRAPH" : "Working with the marketing/business team on projects which are directly related to growing the business and creating user-facing content."
-                },
-                {
-                  "PARAGRAPH" : "We work on cross-functional product teams of 2-5 people, usually one designer and a few developers."
-                },
-                {
-                  "PARAGRAPH" : "Lots of freedom to take control of your process, iterating and learning what works (and what doesn't), and putting your work into production. There's a lot of opportunity for professional growth here, as the team expands."
-                },
-                {
-                  "PARAGRAPH" : "Communicating effectively with stakeholders when presenting your work and clearly articulating your design rationale"
-                },
-                {
-                  "PARAGRAPH" : "Managing multiple projects, while setting appropriate expectations and meeting realistic deadlines"
-                }
-              ]
-            },
-            "SOMETHING" : {
-              "DESCRIPTION" : [
-                {
-                  "BOLD" : "Very comfortable with code.",
-                  "PARAGRAPH" : "BabyCloud is a software company, and everyone here codes in one way or another. You'll need to be comfortable with coding your designs in modern HTML & CSS."
-                },
-                {
-                  "BOLD" : "Fiercely independent.",
-                  "PARAGRAPH" : "All teams at BabyCloud operate fairly autonomously, and all team members are responsible for helping make decisions about what needs to be done. You'll need to be comfortable ideating, prototyping, testing and delivering designs without someone standing over your shoulder telling you what to do."
-                },
-                {
-                  "BOLD" : "Meticulous about style.",
-                  "PARAGRAPH" : "Despite frequent character assassination amongst UX professionals, aesthetic style matters a great deal. We don't A/B test 50 shades of blue here to determine what converts best, we care about making beautiful things which we love."
-                },
-                {
-                  "BOLD" : "Humble but opinionated.",
-                  "PARAGRAPH" : "We like smart people who have lots of ideas, yet are happy to discard their former opinions whenever a better way of doing things presents itself."
-                },
-                {
-                  "BOLD" : "A clear communicator.",
-                  "PARAGRAPH" : "Good design is good communication, and as a remote team which communicates almost exclusively through writing — concise, written communication is absolutely essential to this role."
-                },
-                {
-                  "BOLD" : "An active collaborator.",
-                  "PARAGRAPH" : "We look for people who actively want critical feedback on their work early and often, and who get a kick out of refining and pushing what they do as a collaborative process because it creates a better end result. No design heroes."
-                },
-                {
-                  "BOLD" : "Hungry for meaningful work, and space to do it.",
-                  "PARAGRAPH" : "Almost all work at BabyCloud is complex and extremely challenging - but also deeply rewarding. We're not in the slightest bit fucking interested in what Design-Twitter thinks about... well, anything at all really. We're aggressively uncool."
-                }
-              ]
-            }
+            "JOBDESCRIPTION" : [
+              {
+                "PARAGRAPH" : "We're hiring for Echolalia! Our Echolalia team is responsible for managing our releases and environments, monitoring/alerting, CI/CD pipelines, packaging and integration technologies for delivery our product to our customers, and developer ergonomics. As a member of this team, you'll own the process of bundling our application into a fault-tolerant deliverable that can interact with a multitude of client environments, all while using modern DevOps technologies and processes."
+              },
+              {
+                "PARAGRAPH" : "The role of the recruited engineer will be to contribute to the design and ergonomic optimization of the existing application. He / she will be in charge of the visual identity of the application through the graphic charter, the creation and the layout of the graphic elements and the user experience (UX)."
+              }
+            ],
+            "ROLE" : [
+              {
+                "PARAGRAPH" : "Creation of websites, landing pages, themes, email templates, checkout flows, billing UI. Designing and building many of our most public facing properties. The visual voice of the company."
+              },
+              {
+                "PARAGRAPH" : "Working with design and marketing teams to define, evolve, and maintain Ghost's brand identity across all marketing and product touch points."
+              },
+              {
+                "PARAGRAPH" : "Working with the marketing/business team on projects which are directly related to growing the business and creating user-facing content."
+              },
+              {
+                "PARAGRAPH" : "We work on cross-functional product teams of 2-5 people, usually one designer and a few developers."
+              },
+              {
+                "PARAGRAPH" : "Lots of freedom to take control of your process, iterating and learning what works (and what doesn't), and putting your work into production. There's a lot of opportunity for professional growth here, as the team expands."
+              },
+              {
+                "PARAGRAPH" : "Communicating effectively with stakeholders when presenting your work and clearly articulating your design rationale"
+              },
+              {
+                "PARAGRAPH" : "Managing multiple projects, while setting appropriate expectations and meeting realistic deadlines"
+              }
+            ],
+            "CANDIDATE" : [
+              {
+                "SPAN" : "Very comfortable with code.",
+                "PARAGRAPH" : "Echolalia is a software company, and everyone here codes in one way or another. You'll need to be comfortable with coding your designs in modern HTML & CSS."
+              },
+              {
+                "SPAN" : "Fiercely independent.",
+                "PARAGRAPH" : "All teams at Echolalia operate fairly autonomously, and all team members are responsible for helping make decisions about what needs to be done. You'll need to be comfortable ideating, prototyping, testing and delivering designs without someone standing over your shoulder telling you what to do."
+              },
+              {
+                "SPAN" : "Meticulous about style.",
+                "PARAGRAPH" : "Despite frequent character assassination amongst UX professionals, aesthetic style matters a great deal. We don't A/B test 50 shades of blue here to determine what converts best, we care about making beautiful things which we love."
+              },
+              {
+                "SPAN" : "Humble but opinionated.",
+                "PARAGRAPH" : "We like smart people who have lots of ideas, yet are happy to discard their former opinions whenever a better way of doing things presents itself."
+              },
+              {
+                "SPAN" : "A clear communicator.",
+                "PARAGRAPH" : "Good design is good communication, and as a remote team which communicates almost exclusively through writing — concise, written communication is absolutely essential to this role."
+              },
+              {
+                "SPAN" : "An active collaborator.",
+                "PARAGRAPH" : "We look for people who actively want critical feedback on their work early and often, and who get a kick out of refining and pushing what they do as a collaborative process because it creates a better end result. No design heroes."
+              },
+              {
+                "SPAN" : "Hungry for meaningful work, and space to do it.",
+                "PARAGRAPH" : "Almost all work at Echolalia is complex and extremely challenging - but also deeply rewarding. We're not in the slightest bit fucking interested in what Design-Twitter thinks about... well, anything at all really. We're aggressively uncool."
+              }
+            ]
+          },
+          {
+            "POSITION" : "Senior Cloud Architect (Data)",
+            "LEVEL" : "Full-time CDD",
+            "LOCATION" : "Not Paris",
+            "JOBDESCRIPTION" : [
+              {
+                "PARAGRAPH" : "Curabitur et vulputate urna. Sed porttitor id quam eu maximus. Sed a vestibulum arcu. Sed lobortis pretium arcu nec volutpat. Nullam vel massa pellentesque, pharetra justo vel, lobortis justo. Pellentesque rhoncus enim at nisi condimentum tincidunt."
+              },
+              {
+                "PARAGRAPH" : "Vivamus varius augue quis bibendum tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus enim eros, tempor eu eros eu, vestibulum lobortis magna. Sed in purus justo. Maecenas tortor mauris, luctus blandit mollis mollis, vulputate et tellus."
+              }
+            ],
+            "ROLE" : [
+              {
+                "PARAGRAPH" : "Sed commodo, turpis at euismod aliquet, dolor diam molestie nibh, eu elementum felis nisl sed tellus."
+              },
+              {
+                "PARAGRAPH" : "Nam vitae viverra mi, quis mattis ex. Aliquam et metus ante. Phasellus vel venenatis elit. Ut sed lacus pellentesque felis laoreet vulputate."
+              },
+              {
+                "PARAGRAPH" : "Maecenas ac lacus iaculis, feugiat arcu id, vulputate odio. Maecenas porta est nulla, nec sodales nibh lobortis sit amet."
+              },
+              {
+                "PARAGRAPH" : "Proin dictum leo quis sodales lobortis. Duis pharetra nisl sit amet tortor dignissim commodo."
+              },
+              {
+                "PARAGRAPH" : "Nullam vitae vehicula eros."
+              },
+              {
+                "PARAGRAPH" : "Nulla at mi a lacus aliquet dapibus eu vel tortor."
+              }
+            ],
+            "CANDIDATE" : [
+              {
+                "SPAN" : "Nulla iaculis sagittis nisi.",
+                "PARAGRAPH" : "Curabitur et vulputate urna. Sed porttitor id quam eu maximus. Sed a vestibulum arcu. Sed lobortis pretium arcu nec volutpat."
+              },
+              {
+                "SPAN" : "Nulla iaculis sagittis nisi.",
+                "PARAGRAPH" : "Curabitur et vulputate urna. Sed porttitor id quam eu maximus. Sed a vestibulum arcu. Sed lobortis pretium arcu nec volutpat."
+              },
+              {
+                "SPAN" : "Nulla iaculis sagittis nisi.",
+                "PARAGRAPH" : "Curabitur et vulputate urna. Sed porttitor id quam eu maximus. Sed a vestibulum arcu. Sed lobortis pretium arcu nec volutpat."
+              },
+              {
+                "SPAN" : "Nulla iaculis sagittis nisi.",
+                "PARAGRAPH" : "Curabitur et vulputate urna. Sed porttitor id quam eu maximus. Sed a vestibulum arcu. Sed lobortis pretium arcu nec volutpat."
+              },
+              {
+                "SPAN" : "Nulla iaculis sagittis nisi.",
+                "PARAGRAPH" : "Curabitur et vulputate urna. Sed porttitor id quam eu maximus. Sed a vestibulum arcu. Sed lobortis pretium arcu nec volutpat."
+              },
+              {
+                "SPAN" : "Nulla iaculis sagittis nisi.",
+                "PARAGRAPH" : "Curabitur et vulputate urna. Sed porttitor id quam eu maximus. Sed a vestibulum arcu. Sed lobortis pretium arcu nec volutpat."
+              }
+            ]
           }
         ],
         "APPLY" : {
@@ -1044,13 +1103,13 @@
             "MAIN_POINT": "Legal Notice",
             "DESCRIPTION": [
               {
-                  "PARAGRAPH": "In accordance with the provisions of article 6 III 1 ° of law No. 2004-575 of the 21st June 2004, we inform you that: the babycloudlab.com website is published by BabyCloud and is located at 29 rue ULM, 75005 Paris - FRANCE"
+                  "PARAGRAPH": "In accordance with the provisions of article 6 III 1 ° of law No. 2004-575 of the 21st June 2004, we inform you that: the echolalia.org website is published by Echolalia and is located at 29 rue ULM, 75005 Paris - FRANCE"
               },
               {
-                  "PARAGRAPH": "Telephone: 01 44 32 26 80\nDirector of publication: Xuan Nga Cao\nContact details : xuan-nga.cao@babycloudlab.com"
+                  "PARAGRAPH": "Telephone: 01 44 32 26 80\nDirector of publication: Xuan Nga Cao\nContact details : xuan-nga.cao@echolalia.org"
               },
               {
-                  "PARAGRAPH": "Data Protection Officer ( DPO ) : dpo@babycloudlab.com"
+                  "PARAGRAPH": "Data Protection Officer ( DPO ) : dpo@echolalia.org"
               }
             ]
           },
@@ -1066,7 +1125,7 @@
             "MAIN_POINT": "Definitions",
             "DESCRIPTION": [
               {
-                  "PARAGRAPH": "<b>Site:</b> refers to the website www.babycloudlab.com"
+                  "PARAGRAPH": "<b>Site:</b> refers to the website www.echolalia.org"
               },
               {
                   "PARAGRAPH": "<b>Babycloud project:</b> refers to the scientific project carried out by the Cognitive Science and Psycholinguistics Laboratory (LSCP) of the Ecole Normale Supérieure (ENS)."
@@ -1078,7 +1137,7 @@
                   "PARAGRAPH": "<b>Internet user:</b> refers to any user who visits the site."
               },
               {
-                  "PARAGRAPH": "<b>Subscriber:</b> refers to a user who registers his or her email address on the site and receives the BabyCloud’s newsletter."
+                  "PARAGRAPH": "<b>Subscriber:</b> refers to a user who registers his or her email address on the site and receives the Echolalia’s newsletter."
               },
               {
                   "PARAGRAPH": "<b>Processing:</b> refers to any operation or set of operations performed on personal data or on sets of personal data, whether or not by automated means, such as the collection, recording, storage, use, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction."
@@ -1089,7 +1148,7 @@
             "MAIN_POINT": "Access to the site",
             "DESCRIPTION": [
               {
-                  "PARAGRAPH": "Access to the website babycloudlab.com is available to any user who has an internet connection."
+                  "PARAGRAPH": "Access to the website echolalia.org is available to any user who has an internet connection."
               }
             ]
           },
@@ -1097,25 +1156,25 @@
             "MAIN_POINT": "Data protection",
             "DESCRIPTION": [
               {
-                  "PARAGRAPH": "<b>Purpose of information processing:</b>\nInformation processing involves the subscription to the BabyCloud’s newsletter. The newsletter will inform subscribers on the progress of the project."
+                  "PARAGRAPH": "<b>Purpose of information processing:</b>\nInformation processing involves the subscription to the Echolalia’s newsletter. The newsletter will inform subscribers on the progress of the project."
               },
               {
-                  "PARAGRAPH": "<b>Data processed:</b>\nThe processed data is solely the email addresses of the users who subscribed to the BabyCloud email list.\nNo IP address will be saved.\nNo commercial cookies are used on this website."
+                  "PARAGRAPH": "<b>Data processed:</b>\nThe processed data is solely the email addresses of the users who subscribed to the Echolalia email list.\nNo IP address will be saved.\nNo commercial cookies are used on this website."
               },
               {
-                  "PARAGRAPH": "<b>Persons concerned:</b>\nThe data collection only applies to users who wish to subscribe to the BabyCloud email list."
+                  "PARAGRAPH": "<b>Persons concerned:</b>\nThe data collection only applies to users who wish to subscribe to the Echolalia email list."
               },
               {
                   "PARAGRAPH": "<b>Destination of the processed data:</b>\nThe processed data will be used by the Babycloud team solely to send the newsletter. None of the user’s data will be transferred outside the European Union."
               },
               {
-                  "PARAGRAPH": "<b>Data retention period:</b>\nBabyCloud keeps the email addresses of its subscribers for a period of 3 years. At the end of this period, they will be asked whether they wish to remain subscribed to the site. They can unsubscribe at any time via the “unsubscribe” link embedded in each email they receive."
+                  "PARAGRAPH": "<b>Data retention period:</b>\nEcholalia keeps the email addresses of its subscribers for a period of 3 years. At the end of this period, they will be asked whether they wish to remain subscribed to the site. They can unsubscribe at any time via the “unsubscribe” link embedded in each email they receive."
               },
               {
                   "PARAGRAPH": "<b>User’s rights:</b>\nUsers may access, obtain a copy, object to the processing, and/or request change or removal of their data. They also have the right to restrict their data collection."
               },
               {
-                  "PARAGRAPH": "You can exercise your rights by contacting the DPO at dpo@babycloudlab.com."
+                  "PARAGRAPH": "You can exercise your rights by contacting the DPO at dpo@echolalia.org."
               }
             ]
           },
@@ -1123,7 +1182,7 @@
             "MAIN_POINT": "Intellectual property",
             "DESCRIPTION": [
               {
-                  "PARAGRAPH": "www.babycloudlab.com is a reserved domain name. Any unauthorized use of the copyrighted material is punishable by criminal and civil penalties."
+                  "PARAGRAPH": "www.echolalia.org is a reserved domain name. Any unauthorized use of the copyrighted material is punishable by criminal and civil penalties."
               },
               {
                   "PARAGRAPH": "No provision of the terms of use may be interpreted as an assignment of intellectual property rights."
@@ -1134,7 +1193,7 @@
             "MAIN_POINT": "Liability Disclaimer",
             "DESCRIPTION": [
               {
-                  "PARAGRAPH": "BabyCloud ensures the proper functioning of the site. However, we will not be liable for any loss resulting the user’s browsing activity including service disruption, hacking issues or computer viruses."
+                  "PARAGRAPH": "Echolalia ensures the proper functioning of the site. However, we will not be liable for any loss resulting the user’s browsing activity including service disruption, hacking issues or computer viruses."
               }
             ]
           },
@@ -1150,7 +1209,7 @@
             "MAIN_POINT": "Changes to the terms of use",
             "DESCRIPTION": [
               {
-                  "PARAGRAPH": "BabyCloud reserves the right to update the terms of use in order to take into account, any legal and/or technical changes without the user’s consent. Any revised terms of use will be applicable at the time of its posting on the BabyCloud website."
+                  "PARAGRAPH": "Echolalia reserves the right to update the terms of use in order to take into account, any legal and/or technical changes without the user’s consent. Any revised terms of use will be applicable at the time of its posting on the Echolalia website."
               }
             ]
           }
