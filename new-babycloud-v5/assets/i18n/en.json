@@ -1,0 +1,991 @@
+{
+    "SHARED": {
+        "FOOTER": {
+            "CONTACT": {
+                "IMG": {
+                    "SRC": "assets/images/shared/footer_logo.svg",
+                    "ALT": "logo: brain with a speech bubble for the brain stem"
+                },
+                "TEL": "+33-6-52-20-64-18",
+                "MAIL": "info@echolalia.org"
+            },
+            "FOOTNOTE": {
+                "COPYRIGHT": "©",
+                "OWNER": "Echolalia",
+                "MESSAGE": "All Rights Reserved"
+            },
+            "COLUMNS": [
+                {
+                    "TITLE": "Tools",
+                    "LINKS": [
+                        {
+                            "NAME": "Baby Logger",
+                            "HREF": "../logger"
+                        },
+                        {
+                          "NAME": "Researcher Portal",
+                          "HREF": "../portal"
+                      }
+                    ]
+                },
+                {
+                  "TITLE": "Project",
+                  "LINKS": [
+                      {
+                        "NAME": "Research",
+                        "HREF": "/research"
+                      },
+                      {
+                          "NAME": "Mission & Values",
+                          "HREF": "/mission"
+                      },
+                      {
+                          "NAME": "Team",
+                          "HREF": "/team"
+                      },
+                      {
+                          "NAME": "Careers",
+                          "HREF": "/careers"
+                      }
+                  ]
+                }
+            ],
+            "CONTACTUS": {
+              "TITLE" : "Contact",
+              "MESSAGE" : "Send a Message",
+              "QUOTE" : "Request a Quote",
+              "DEMO" : "Request a Demo"
+            },
+            "LEGAL-ROW": {
+              "TERMS" : "Terms",
+              "PRIVACY" : "Privacy",
+              "CONTACT" : "Contact"
+            }
+        }
+    },
+    "HOME" : {
+        "HERO" : {
+          "HEADING" : "Secure, web-based AI tools for big data speech research",
+          "SUBHEADING" : "The echolalia project aims to promote data collection, sharing, and analyzing of behavioral data to study language development and/or impairement. \\ We focuse on creating community-improved, open-source, state-of-the-art Artificial Intelligence tools (hardware and software) to securely store, annotate, analyze and share daylong audio recordings while respecting the privacy of the families and patients.\\ Currently, we work on a custom wearable language logger, and a web app using Machine Learning to securely analyze large speech files.",
+          "DESCRIPTION": [
+            {
+              "PARAGRAPH" : "The echolalia project aims to promote data collection, sharing, and analyzing of behavioral data to study language development and/or impairment."
+            },
+            {
+              "PARAGRAPH" : "We focus on creating community-improved, open-source, state-of-the-art Artificial Intelligence tools (hardware and software) to securely store, annotate, analyze and share daylong audio recordings while respecting the privacy of the families and patients."
+            },
+            {
+              "PARAGRAPH" : "Currently, we work on a custom wearable language logger, and a web app using Machine Learning to securely analyze large speech files."
+            }
+          ],
+          "BUTTON" : "Our Mission & Values"
+        },
+        "ABOUT" : {
+          "DESCRIPTION" : [
+            {
+              "PARAGRAPH" : "The Echolalia Project aims to promote data collection, sharing, and analyzing of behavioral data to study language development in infants. The project focuses on creating community-improved, open-source, state-of-the-art Machine Learning tools to securely store, manage, analyze and share daylong audio and related data while respecting the privacy of the families."
+            },
+            {
+              "PARAGRAPH" : "This project rests on an international network of researchers in Europe, America and Asia. It's operational quarters are currently at the Ecole Normale Supérieure in Paris. It has been funded by CNR, INRIA, NSF, ANR, MSR, Facebook and Amazon."
+            }
+          ]
+        },
+        "PRODUCTS" : {
+          "LOGGER" : {
+            "TITLE" : "Baby Logger",
+            "INFO" : "A small, user-friendly, baby-compatible, wearable audio recorder. It has 4 channels, an accelerometer, 24 hours of recording autonomy, stores up to 120h of data and is encrypted. With the logger comes a set of tools to extract and decrypt the data.",
+            "BUTTON" : "Learn More"
+          },
+          "PORTAL" : {
+            "TITLE" : "Researcher Portal",
+            "INFO" : "A cloud platform for annotating, analyzing and archiving audio data with secure state-of-the-art machine learning tools (signal processing, speech recognition). The data is stored encrypted, the analysis is performed in the cloud itself and can be securely shared and analyzed in situ insuring end-to-end privacy.",
+            "BUTTON" : "Learn More"
+          }
+        },
+        "DISTRIBUTION" : {
+          "TITLE" : "We distribute these components in two ways:",
+          "ONE" : {
+            "TITLE" : "Open source code and hardware",
+            "INFO" : "Both the BabyLogger schematics and code, and the modules of the ResearcherPortal are open source and can be reproduced and modified (MIT open source license, see our GitHub). Contributors are welcome."
+          },
+          "TWO" : {
+            "TITLE" : "Ready to use devices and web service",
+            "INFO" : "We have setup a non-profit (Echolalia-NP) which distributes at the lowest possible cost, but without putting a non-sustainable burden on the research labs contributing to this project, the Echolalia components for the non-technical savy behavioral scientist. It helps researchers group order BabyLoggers in order to lower the construction price, gives them access to an on-line version of the ResearcherPortal running on a local GDPR-compliant cloud in Europe, and some customer support."
+          },
+          "BUTTON" : "Get a Quote"
+        },
+        "CONTACT" : {
+          "TITLE" : "Interested?",
+          "LINK" : "Contact Us!"
+        },
+        "SUPPORTER": {
+          "SUPPORTERS": [
+              {
+                  "SRC": "assets/images/home/logo-amazon.svg",
+                  "ALT": "Amazon Logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-anr.svg",
+                  "ALT": "Agence Nationale de la Recherche (ANR) Logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-cnrs.svg",
+                  "ALT": "Centre national de la recherche scientifique (CNRS) logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-ehess.svg",
+                  "ALT": "École des hautes études en sciences sociales (EHESS) logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-ens.svg",
+                  "ALT": "École normale supérieure (ENS) logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-facebook.svg",
+                  "ALT": "Facebook logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-inria.svg",
+                  "ALT": "INRIA Logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-microsoft.svg",
+                  "ALT": "Microsoft logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-nsf.svg",
+                  "ALT": "National Science Foundation (NSF) logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-psl.svg",
+                  "ALT": "Université Paris Sciences et Lettres (PSL) logo"
+              }
+          ]
+      }
+    },
+    "MISSION" : {
+      "MAIN" : {
+        "TITLE" : "Our Mission",
+        "SUBTITLE" : "Promote collection and analysis of behavioral data for the purpose of behavioral data in order to:",
+        "ONE" : "contribute to fundamental research on cognitive development and functioning",
+        "TWO" : "contribute to applied research aimed at solving major societal challenges (well-being, education, health, etc.)",
+        "DESCRIPTION" : [
+          {
+            "PARAGRAPH" : "We help data collection through the building or improvement of secure wearable devices (audio, physiological, images, etc) that enable daylong recording of human interactions and activities in their 'ecological' environments. We help analysis through the development or improvement of annotation software and machine learning algorithms that can be applied at scale in these data. Both sets of technologies are build according to open science and privacy-by-design principles to ensure both maximum reusability, sharability and replicability of the scientific findings and maximum privacy and confidentiality of the participants' data."
+          }
+        ]
+      },
+      "VALUES" : {
+        "ONE" : {
+          "TITLE" : "Interdisciplinarity",
+          "INFO" : "We believe that behavioral research and machine learning are engaged in a synergistic, interdisciplinary, collaborative relationship which is going to bring incredible societal and scientific value for education, health and well being, when done right. We strive to help this relationship in the particular instance of early cognitive development, but believe that our model can be exported for other areas of behavioral studies."
+        },
+        "TWO" : {
+          "TITLE" : "Open Science",
+          "INFO" : "We believe in open, transparent, reproducible, and collaborative science both for data and for algorithms, as is demultiplies the spread of scientific knowledge and its impact on real life problems. This is why we open source all of our tools, and build technology to share data or models across researchers in a secure fashion."
+        },
+        "THREE" : {
+          "TITLE" : "Privacy by Design",
+          "INFO" : "We believe that parents, families, children, communities participating in behavioral studies should be considered as stakeholders of the process of making scientific progress and therefore treated as partners. This is why, while we build tools to increase data collection volume  and depth of analysis through AI, we counterbalance this  by strenghtening privacy protection and empowering participants with control and insight over their own data."
+        }
+
+      }
+    },
+    "RESEARCH" : {
+      "PUBLICATIONS" : {
+        "TITLE" : "Publications",
+        "PUBLICATION" : [
+          {
+            "TITLE" : "An open-source voice type classifier for child-centered daylong recordings",
+            "SUBTITLE" : "Lavechin, M., Bousbib, R., Bredin, H., Dupoux, E., & Cristia, A. (2020)",
+            "IMG" : {
+              "SRC" : "assets/images/research/publication01.jpg",
+              "ALT" : "abstract image that has nothing to do with the publication it represents"
+            },
+            "LINK" : "https://arxiv.org/abs/2005.12656"
+          },
+          {
+            "TITLE" : "Seshat: A tool for managing and verifying annotation campaigns of audio data",
+            "SUBTITLE" : "Titeux, H., Riad, R., Cao, X.N., Hamilakis, N., Madden, K., Cristia, A., Bachoud-Lévi, A.C. & Dupoux, E. (2020)",
+            "IMG" : {
+              "SRC" : "assets/images/research/publication02.jpg",
+              "ALT" : "abstract image that has nothing to do with the publication it represents"
+            },
+            "LINK" : "https://hal.archives-ouvertes.fr/hal-02496041v1/document"
+          },
+          {
+            "TITLE" : "Baby Cloud, a technological platform for parents and researchers",
+            "SUBTITLE" : "Cao, X.N., Dakhlia, C., del Carmen, P., Jaouani, M.A., Ould-Arbi, M. & Dupoux, E. (2018)",
+            "IMG" : {
+              "SRC" : "assets/images/research/publication03.jpg",
+              "ALT" : "abstract image that has nothing to do with the publication it represents"
+            },
+            "LINK" : "http://www.lscp.net/persons/dupoux/papers/Cao_DdCJOD_2018_BabyCloud_Platform.LREC.pdf"
+          }
+        ]
+      },
+      "CREDITS" : {
+        "TITLE" : "Credits",
+        "SUBTITLE" : "The Echolalia Project has been funded by grants from:",
+        "SUPPORTER": {
+          "SUPPORTERS": [
+              {
+                  "SRC": "assets/images/home/logo-amazon.svg",
+                  "ALT": "Amazon Logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-anr.svg",
+                  "ALT": "Agence Nationale de la Recherche (ANR) Logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-cnrs.svg",
+                  "ALT": "Centre national de la recherche scientifique (CNRS) logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-ehess.svg",
+                  "ALT": "École des hautes études en sciences sociales (EHESS) logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-ens.svg",
+                  "ALT": "École normale supérieure (ENS) logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-facebook.svg",
+                  "ALT": "Facebook logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-inria.svg",
+                  "ALT": "INRIA Logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-microsoft.svg",
+                  "ALT": "Microsoft logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-nsf.svg",
+                  "ALT": "National Science Foundation (NSF) logo"
+              },
+              {
+                  "SRC": "assets/images/home/logo-psl.svg",
+                  "ALT": "Université Paris Sciences et Lettres (PSL) logo"
+              }
+          ]
+        }
+      }
+    },
+    "LOGGER" : {
+      "MAIN" : {
+        "TITLE" : "Baby Logger",
+        "SUBTITLE" : "The BabyLogger is a user-friendly, baby-compatible, 4-channels wearable audio recorder. It has been designed for high quality daylong (24 hours) of continuous recording sessions, and is fully encrypted to preserve security and privacy.",
+        "BUTTON1" : "Documentation",
+        "BUTTON1-LINK" : "https://docs.babycloudlab.com",
+        "BUTTON2" : "Request Demo"
+      },
+      "SPECS" : {
+        "SPEC" : [
+          {
+            "IMG" : {
+              "SRC" : "assets/images/logger/four-channels.svg",
+              "ALT" : "four audio channel mixer switches"
+            },
+            "TEXT" : "4 audio channels (16 bits, 16kHz)"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/logger/xyz.svg",
+              "ALT" : "box with arrows pointing along x y and z axes"
+            },
+            "TEXT" : "XYZ accelerometer (100Hz)"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/logger/battery.svg",
+              "ALT" : "battery with charging cord"
+            },
+            "TEXT" : "No waves are emitted during recording"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/logger/memory.svg",
+              "ALT" : "sd card with 120h written in it"
+            },
+            "TEXT" : "24 hours of recording autonomy; charging time around 2 hours"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/logger/no-waves.svg",
+              "ALT" : "wave inside a circle with line crossing it out"
+            },
+            "TEXT" : "Stores up to 120h of data on a removable micro-SD card"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/logger/encryption.svg",
+              "ALT" : "lock with data behind it, unencrypted to the left encrypted to the right"
+            },
+            "TEXT" : "Encrypted (if the logger or SD card is lost or stolen, the privacy is protected)"
+          }
+        ]
+      },
+      "MORE" : {
+        "ONE" : {
+          "TITLE" : "To know more, look at the documentation.",
+          "SUBTITLE" : "",
+          "BUTTON": "Documentation",
+          "HREF" : "https://docs.babycloudlab.com"
+        },
+        "TWO" : {
+          "TITLE" : "If you are interested in the technical detail and/or want to contribute to improving the logger, here is our logger github.",
+          "SUBTITLE" : "",
+          "BUTTON": "Github",
+          "HREF" : "https://code.echolalia.org"
+        },
+        "THREE" : {
+          "TITLE" : "If you are interested to have loggers constructed, please fill this form for a quote.",
+          "SUBTITLE" : "The price we can get varies a lot on the number of devices that are constructed in a batch. The larger the batches are, the less expensive it gets.",
+          "BUTTON": "Contact Us"
+        }
+      }
+    },
+    "PORTAL" : {
+      "MAIN" : {
+        "TITLE" : "Researcher Portal",
+        "PARAGRAPH1" : "The researcher portal is an on-going development integrating open source software to help researchers annotate, analyze and store increasingly large amounts of data. The target research projects are the following:",
+        "DESCRIPTION" : [
+          {
+            "PARAGRAPH" : "infant language development research: we analyze infant's and parents' speech in terms of amount and complexity of the vocalizations"
+          },
+          {
+            "PARAGRAPH" : "patients with neurological speech disorders (work in progress)"
+          }
+        ],
+        "PARAGRAPH4" : "We use a modular architecture, whereby new analyses modules can be added, on a project by project basis, and data across projects can be pooled to improve the analysis tools using secure AI techniques (federated learning, blockchain for traceability of analyses, differential privacy, etc). We are planning to develop three functionalities.",
+        "BUTTON1" : "Documentation",
+        "BUTTON1-LINK" : "https://docs.echolalia.org",
+        "BUTTON2" : "Request Demo"
+      },
+      "SPECS" : {
+        "ONE" : {
+          "TITLE" : "Automatic analysis <span><br>(beta version)</span>",
+          "DESCRIPTION": [
+            {
+              "PARAGRAPH": "Extracting who is talking when in broad speaker classes (timestamps of MALE, FEMALE, KEY_CHILD, OTHER_CHILD)"
+            },
+            {
+              "PARAGRAPH": "Phoneme, syllable and word count estimates."
+            },
+            {
+              "PARAGRAPH": "Validated across multiple languages: on par or better than LENA!"
+            }
+          ],
+          "TEXT" : "(this text is not displayed; please remove)"
+        },
+        "TWO" : {
+          "TITLE" : "Human annotation<br>campaign <span>(under development)</span>",
+          "DESCRIPTION": [
+            {
+              "PARAGRAPH": "Selects data, assigns tasks"
+            },
+            {
+              "PARAGRAPH": "Manages human annotations sessions (using PRAAT)"
+            },
+            {
+              "PARAGRAPH": "Computes inter-scorer reliability"
+            }
+          ],
+          "TEXT" : "(this text is not displayed; please remove)"
+        },
+        "THREE" : {
+          "TITLE" : "Long term secure storage <span>(TBA)</span>",
+          "DESCRIPTION": [
+            {
+              "PARAGRAPH": "Organization of projects and directories"
+            },
+            {
+              "PARAGRAPH": "Sharing rights & groups"
+            },
+            {
+              "PARAGRAPH": "Upload/download/freeze"
+            },
+            {
+              "PARAGRAPH": "Actions and hot folders"
+            },
+            {
+              "PARAGRAPH": "End-to-end encryption"
+            }
+          ],
+          "TEXT" : "(this text is not displayed; please remove)"
+        }
+      },
+      "MORE" : {
+        "ONE" : {
+          "TITLE" : "To know more, look at the documentation.",
+          "SUBTITLE" : "",
+          "BUTTON": "Documentation",
+          "HREF" : "https://docs.echolalia.org"
+        },
+        "TWO" : {
+          "TITLE" : "If you are interested in the technical detail, want to contribute to improving the researcher portal, or make requests for new features, here is our github.",
+          "SUBTITLE" : "",
+          "BUTTON": "Github",
+          "HREF" : "https://code.echolalia.org"
+        },
+        "THREE" : {
+          "TITLE" : "If you are interested to use the researcher portal, please fill this form for a quote.",
+          "SUBTITLE" : "The researchers portal will be costed to directly reflect cloud storage and compute prices, as well as tech support.",
+          "BUTTON": "Contact Us"
+        }
+      }
+    },
+    "TEAM" : {
+      "MAIN" : {
+        "TITLE" : "Our Team",
+        "SUBTITLE" : "We are an international consortium of researchers interested in developing tools for the behavioral sciences.",
+        "SECTION" : "Operational Team",
+        "MEMBERS" : [
+          {
+            "IMG" : {
+              "SRC" : "assets/images/team/eDupoux.jpg",
+              "ALT" : "image of Emmanuel Dupoux"
+            },
+            "NAME" : "Emmanuel Dupoux",
+            "ROLE" : "Project Leader",
+            "ORGANIZATION" : "LSCP (ENS/CNRS/EHESS/INRIA)"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/team/cRowland.jpg",
+              "ALT" : "image of Caroline Rowland"
+            },
+            "NAME" : "Caroline Rowland",
+            "ROLE" : "Researcher",
+            "ORGANIZATION" : "MPI for Psycholinguistics"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/team/xCao.jpg",
+              "ALT" : "image of Xuan-Nga Cao"
+            },
+            "NAME" : "Xuan-Nga Cao",
+            "ROLE" : "Project Manager",
+            "ORGANIZATION" : "LSCP (ENS/CNRS/EHESS/INRIA)"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/team/mKhentout.jpg",
+              "ALT" : "image of Manel Khentout"
+            },
+            "NAME" : "Manel Khentout",
+            "ROLE" : "Engineer",
+            "ORGANIZATION" : "LSCP (ENS/CNRS/EHESS/INRIA)"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/team/nHamilakis.jpg",
+              "ALT" : "image of Nick Hamilakis"
+            },
+            "NAME" : "Nick Hamilakis",
+            "ROLE" : "Engineer",
+            "ORGANIZATION" : "LSCP (ENS/CNRS/EHESS/INRIA)"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/team/mLavechin.jpg",
+              "ALT" : "image of Marvin Lavechin"
+            },
+            "NAME" : "Marvin Lavechin",
+            "ROLE" : "Engineer",
+            "ORGANIZATION" : "LSCP (ENS/CNRS/EHESS/INRIA)"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/team/rDirksmeyer.jpg",
+              "ALT" : "image of Reiner Dirksmeyer"
+            },
+            "NAME" : "Reiner Dirksmeyer",
+            "ROLE" : "Engineer",
+            "ORGANIZATION" : "MPI for Psycholinguistics"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/team/pTrilsbeek.jpg",
+              "ALT" : "image of Paul Trilsbeek"
+            },
+            "NAME" : "Paul Trilsbeek",
+            "ROLE" : "Engineer",
+            "ORGANIZATION" : "MPI for Psycholinguistics"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/team/rRiad.jpg",
+              "ALT" : "image of Rachid Riad"
+            },
+            "NAME" : "Rachid Riad",
+            "ROLE" : "Engineer, PhD student",
+            "ORGANIZATION" : "LSCP (ENS/CNRS/EHESS/INRIA)"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/team/kMadden.jpg",
+              "ALT" : "image of Kris Madden"
+            },
+            "NAME" : "Kris Madden",
+            "ROLE" : "Designer",
+            "ORGANIZATION" : "LSCP (ENS/CNRS/EHESS/INRIA)"
+          }
+        ]
+      },
+      "OTHERS" : {
+        "TITLE1" : "Scientific Advisors",
+        "MEMBERS1" : [
+            {
+              "IMG" : {
+                "SRC" : "assets/images/team/aCristia.jpg",
+                "ALT" : "image of Alejandrina Cristia"
+              },
+              "NAME" : "Alejandrina Cristia",
+              "ROLE" : "Senior Researcher",
+              "ORGANIZATION" : "LSCP (ENS/CNRS/EHESS/INRIA)"
+            },
+            {
+              "IMG" : {
+                "SRC" : "assets/images/team/mCasillas.jpg",
+                "ALT" : "image of Marisa Casillas"
+              },
+              "NAME" : "Marisa Casillas",
+              "ROLE" : "Researcher",
+              "ORGANIZATION" : "MPI for Psycholinguistics"
+            },
+            {
+              "IMG" : {
+                "SRC" : "assets/images/team/hSloetjes.jpg",
+                "ALT" : "image of Han Sloetjes"
+              },
+              "NAME" : "Han Sloetjes",
+              "ROLE" : "Engineer",
+              "ORGANIZATION" : "MPI for Psycholinguistics"
+            },
+            {
+              "IMG" : {
+                "SRC" : "assets/images/team/aLevi.jpg",
+                "ALT" : "image of Anne Catherine Bachoud Levi"
+              },
+              "NAME" : "Anne Catherine Bachoud Levi",
+              "ROLE" : "Researcher, MD-PhD",
+              "ORGANIZATION" : "LSCP (ENS/CNRS/EHESS/INRIA)"
+            },
+            {
+              "IMG" : {
+                "SRC" : "assets/images/team/hBredin.jpg",
+                "ALT" : "image of Hervé Bredin"
+              },
+              "NAME" : "Hervé Bredin",
+              "ROLE" : "Researcher",
+              "ORGANIZATION" : "LSCP (ENS/CNRS/EHESS/INRIA)"
+            }
+        ],
+        "TITLE2" : "Beta Testers",
+        "MEMBERS2" : [
+          {
+            "IMG" : {
+              "SRC" : "assets/images/team/team-member-male-2.jpg",
+              "ALT" : "image of "
+            },
+            "NAME" : "Tester Name",
+            "DESCRIPTION" : "University"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/team/team-member-female-2.jpg",
+              "ALT" : "image of "
+            },
+            "NAME" : "Tester Name",
+            "DESCRIPTION" : "University"
+          },
+          {
+            "IMG" : {
+              "SRC" : "assets/images/team/team-member-female-1.jpg",
+              "ALT" : "image of "
+            },
+            "NAME" : "Tester Name",
+            "DESCRIPTION" : "University"
+          }
+        ]
+      },
+      "JOIN" : {
+        "TITLE" : "Join Our Team",
+        "SUBTITLE" : "We welcome volunteers, contributors to the code, beta testers. We also have job offers.",
+        "LINK" : "Contact us here!",
+        "BUTTON" : "View Jobs"
+      }
+    },
+    "CAREERS" : {
+      "MAIN" : {
+        "TITLE" : "We're Hiring",
+        "SUBTITLE" : "Full-time, Part-time, Volunteers, and Interns"
+      },
+      "OPEN" : {
+        "TITLE" : "We are always open to meeting new people!",
+        "SUBTITLE" : "Don’t see a position that fits your profile? No problem! Our team is always growing, feel free to get in touch at",
+        "EMAIL" : "contact@echolalia.org"
+      },
+      "JOBS" : {
+        "TITLE" : "Available Positions",
+        "GENERAL": {
+          "ABOUT-US" : {
+            "TITLE" : "About Us",
+            "DESCRIPTION" : [
+              {
+                "PARAGRAPH" : "The Laboratory of Cognitive and Psycholinguistic Sciences (LSCP) is located in Paris in the Department of Cognitive Studies of the École Normale Supérieure. The goal of research at LSCP is to understand the psychological mechanisms that underlie the acquisition and functioning of typically human cognitive functions, such as language, social cognition and consciousness."
+              },
+              {
+                "PARAGRAPH" : "Integrated into the LSCP, the goal of the Cognitive Machine Learning (CoML) team is to reverse engineer these human capacities, that is to say to develop algorithms that can reproduce certain aspects and test their validity as models of human cognition. The team's activities are centered on speech, language and reasoning."
+              }
+            ]
+          },
+          "JOB-DESCRIPTION" : {
+            "TITLE" : "About the Project"
+          },
+          "ROLE" : {
+            "TITLE" : "About the Role"
+          },
+          "CANDIDATES" : {
+            "TITLE" : "About the Canidate"
+          },
+          "APPLY" : {
+            "TITLE" : "Apply!",
+            "SUBTITLE" : "If you think this role is for you, please send us your CV/resume. We do not require a cover letter, but you may send one to support your application if you wish to do so.",
+            "EMAIL-US" : "Send your application to ",
+            "EMAIL" : "contact@echolalia.org"
+          }
+        },
+        "JOB" : [
+          {
+            "POSITION" : "Junior Engineer in Electronics Hardware / Software",
+            "LEVEL" : "CDD - 12 months",
+            "LOCATION" : "Paris",
+            "JOBDESCRIPTION" : [
+              {
+                "PARAGRAPH" : "The objective is to make continuous recordings of infants and their linguistic and visual environment for 1 to 3 years (life-logging), using a system of sensors (audio and photo or video)."
+              },
+              {
+                "PARAGRAPH" : "The data collected will be made available to the international scientific community for research (study of language acquisition in infants, etc.), while protecting the privacy of parents (and children). An application will allow parents to control the information distributed and will offer services to monitor the child's progress. In the long term, this project will lead to the creation of a “social” start-up that will manage the relationship between parents and the scientific community."
+              }
+            ],
+            "ROLE" : [
+              {
+                "PARAGRAPH" : "Having an already functional prototype, you will have to integrate the different existing functionalities: audio, photos and accelerometer in order to produce a Echolalia Logger at TRL7 level, ready to be tested with volunteer families."
+              },
+              {
+                "PARAGRAPH" : "You will need to implement new features: backup to flash memory, wireless communication, data post-processing."
+              },
+              {
+                "PARAGRAPH" : "Among other things, you will need to resolve calibration and synchronization issues."
+              },
+              {
+                "PARAGRAPH" : "You will have to study the overall consumption of the system, size the battery, and design the circuit allowing its management."
+              },
+              {
+                "PARAGRAPH" : "You will have to produce precise technical documents allowing the durability of the Echolalia Logger"
+              },
+              {
+                "PARAGRAPH" : "You will work in a team comprising a web developer, a student of digital law and a designer in order to take into account all the constraints of the use of data in the design of the prototype."
+              }
+            ],
+            "CANDIDATE" : [
+              {
+                "SPAN" : "Engineer Degree in Electronics",
+                "PARAGRAPH" : ""
+              },
+              {
+                "SPAN" : "Embedded software:",
+                "PARAGRAPH" : "Excellent command of embedded C language. Strong experience in STM and Keil μ Vision IDE microcontroller systems. Mastery of digital communication buses. Experience in data acquisition and processing."
+              },
+              {
+                "SPAN" : "Hardware:",
+                "PARAGRAPH" : "Experience in designing analog / digital circuits. Knowledge of RF protocols. Good knowledge in RF circuit design."
+              },
+              {
+                "SPAN" : "Knowledge or experience in digital signal processing applied to audio and / or image will be appreciated.",
+                "PARAGRAPH" : ""
+              }
+            ]
+          },
+          {
+            "POSITION" : "Multimedia Designer",
+            "LEVEL" : "CDD - 12 months",
+            "LOCATION" : "Paris",
+            "JOBDESCRIPTION" : [
+              {
+                "PARAGRAPH" : "The objective is to make continuous recordings of infants and their linguistic and visual environment for 1 to 3 years (life-logging), using a system of sensors (audio and photo or video)."
+              },
+              {
+                "PARAGRAPH" : "The data collected will be made available to the international scientific community for research (study of language acquisition in infants, etc.), while protecting the privacy of parents (and children). An application will allow parents to control the information distributed and will offer services to monitor the child's progress. In the long term, this project will lead to the creation of a “social” start-up that will manage the relationship between parents and the scientific community."
+              }
+            ],
+            "ROLE" : [
+              {
+                "PARAGRAPH" : "Establish and promote design guidelines, best practices and standards"
+              },
+              {
+                "PARAGRAPH" : "Use interactive sketches, storyboards / wireframes and prototypes to communicate and transform ideas into products"
+              },
+              {
+                "PARAGRAPH" : "Create digital images for user interfaces, animations, videos, applications"
+              },
+              {
+                "PARAGRAPH" : "Create videos and animations to use in our products, as well as promotional material for our laboratory and our products"
+              },
+              {
+                "PARAGRAPH" : "Design user interfaces (storyboards, wireframes, models, user tests, etc.) in close collaboration with doctoral students, back-end engineers and Machine Learning scientists from our team"
+              },
+              {
+                "PARAGRAPH" : "Work with back-end developers to transform your designs into websites and operational applications in which you will manage the front-end"
+              },
+              {
+                "PARAGRAPH" : "Contribute to the design and ergonomic optimization of the existing application. Support the visual identity of the application through the graphic charter, the creation and layout of graphic elements and the user experience (UX)."
+              }
+            ],
+            "CANDIDATE" : [
+              {
+                "SPAN" : "Prototype:",
+                "PARAGRAPH" : "Proficiency in standard design and prototyping tools such as Sketch, Adobe Creative Suite, InVision, etc. to develop low and high fidelity prototypes"
+              },
+              {
+                "SPAN" : "Photography:",
+                "PARAGRAPH" : "Familiarity with videography, digital photography and photo editing practices"
+              },
+              {
+                "SPAN" : "Video:",
+                "PARAGRAPH" : "Knowledge of video production tools (Premiere, After Effects…)"
+              },
+              {
+                "SPAN" : "Web:",
+                "PARAGRAPH" : "Competent in HTML / CSS development and CSS frameworks (especially Bootstrap). Ease of working with Angular2 + and Ionic framework (or a base in Javascript)"
+              },
+              {
+                "SPAN" : "",
+                "PARAGRAPH" : "Exceptional skills in visual interface design demonstrated by a portfolio"
+              },
+              {
+                "SPAN" : "",
+                "PARAGRAPH" : "Autonomy, thoroughness, ability to work in an international context"
+              }
+            ]
+          }
+        ],
+        "APPLY" : {
+          "TITLE" : "",
+          "SUBTITLE" : "",
+          "FIRST-NAME" : "First Name",
+          "SECOND-NAME" : "Last Name",
+          "EMAIL" : "Work Email",
+          "PHONE" : "Phone",
+          "CV" : "CV / Resume",
+          "COVER-LETTER" : "Cover Letter",
+          "MESSAGE" : "Attach File",
+          "CONFIRMATION" : "Your application has been submitted. Thank you!"
+        }
+      }
+    },
+    "CONTACT" : {
+      "LEFT" : {
+        "TITLE" : "Get in Touch",
+        "ADDRESS1" : "2 Rue Simone Iff",
+        "ADDRESS2" : "75012 Paris, France",
+        "PHONE" : "+33 6 00 00 00 00",
+        "EMAIL" : "contact@echolalia.org"
+      },
+      "RIGHT" : {
+
+      }
+
+    },
+    "COMINGSOON" : {
+      "TITLE" : "Work in Progress",
+      "SUBTITLE" : "This section is coming soon. We apologize for the inconvenience."
+    },
+    "PAGES" : {
+      "CONSTRUCTION": {
+        "TITLE": "Under Construction",
+        "INSTRUCTIONS": "Access Code",
+        "PASSWORD": "Code",
+        "BTN": "Enter"
+      },
+      "PRIVACY-POLICY": {
+        "TITLE": "Privacy Policy",
+        "OUTLINE": [
+          {
+            "MAIN_POINT": "",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "At <i>Echolalia</i>, accessible at <a href='https://www.echolalia.org'>www.echolalia.org</a>, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains information on how we collect, use, and store your personal information on <a href='https://www.echolalia.org'>echolalia.org</a>."
+              },
+              {
+                  "PARAGRAPH": "Please take the time to familiarize yourself with our privacy practices and if you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us at <a href='mailto:contact@echolalia.org'>contact@echolalia.org</a>"
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Log File",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "<i>Echolalia</i> follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Cookies and Web Beacons",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "Like any other website, <a href='https://www.echolalia.org'>echolalia.org</a> uses ‘cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Log File",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "<i>Echolalia</i> follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Online Privacy Policy Only",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "This privacy policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in <a href='https://www.echolalia.org'>echolalia.org</a>. This policy is not applicable to any information collected offline or via channels other than this website."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Consent",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "By using our website, you hereby consent to our Privacy Policy and agree to its Terms and Conditions (see our Terms and Conditions document for more information)."
+              }
+            ]
+          }
+        ]
+      },
+      "TERMS-OF-USE": {
+        "TITLE": "Terms of Use",
+        "OUTLINE": [
+          {
+            "MAIN_POINT": "Legal Notice",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "In accordance with the provisions of article 6 III 1 ° of law No. 2004-575 of the 21st June 2004, we inform you that: the echolalia.org website is published by Echolalia and is located at 29 rue ULM, 75005 Paris - FRANCE"
+              },
+              {
+                  "PARAGRAPH": "Telephone: 01 44 32 26 80\nDirector of publication: Xuan Nga Cao\nContact details : xuan-nga.cao@echolalia.org"
+              },
+              {
+                  "PARAGRAPH": "Data Protection Officer ( DPO ) : dpo@echolalia.org"
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Purpose of the terms of use",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "The terms of use are intended to govern the use of the site by any user. By browsing the website you acknowledge to having fully read and understood the terms of use."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Definitions",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "<b>Site:</b> refers to the website www.echolalia.org"
+              },
+              {
+                  "PARAGRAPH": "<b>Babycloud project:</b> refers to the scientific project carried out by the Cognitive Science and Psycholinguistics Laboratory (LSCP) of the Ecole Normale Supérieure (ENS)."
+              },
+              {
+                  "PARAGRAPH": "<b>General Regulation on the Protection of Personal Data (GDPR):</b> refers to the European legislation in effect since May 25th,  2018 regarding the protection of personal data."
+              },
+              {
+                  "PARAGRAPH": "<b>Internet user:</b> refers to any user who visits the site."
+              },
+              {
+                  "PARAGRAPH": "<b>Subscriber:</b> refers to a user who registers his or her email address on the site and receives the Echolalia’s newsletter."
+              },
+              {
+                  "PARAGRAPH": "<b>Processing:</b> refers to any operation or set of operations performed on personal data or on sets of personal data, whether or not by automated means, such as the collection, recording, storage, use, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Access to the site",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "Access to the website echolalia.org is available to any user who has an internet connection."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Data protection",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "<b>Purpose of information processing:</b>\nInformation processing involves the subscription to the Echolalia’s newsletter. The newsletter will inform subscribers on the progress of the project."
+              },
+              {
+                  "PARAGRAPH": "<b>Data processed:</b>\nThe processed data is solely the email addresses of the users who subscribed to the Echolalia email list.\nNo IP address will be saved.\nNo commercial cookies are used on this website."
+              },
+              {
+                  "PARAGRAPH": "<b>Persons concerned:</b>\nThe data collection only applies to users who wish to subscribe to the Echolalia email list."
+              },
+              {
+                  "PARAGRAPH": "<b>Destination of the processed data:</b>\nThe processed data will be used by the Babycloud team solely to send the newsletter. None of the user’s data will be transferred outside the European Union."
+              },
+              {
+                  "PARAGRAPH": "<b>Data retention period:</b>\nEcholalia keeps the email addresses of its subscribers for a period of 3 years. At the end of this period, they will be asked whether they wish to remain subscribed to the site. They can unsubscribe at any time via the “unsubscribe” link embedded in each email they receive."
+              },
+              {
+                  "PARAGRAPH": "<b>User’s rights:</b>\nUsers may access, obtain a copy, object to the processing, and/or request change or removal of their data. They also have the right to restrict their data collection."
+              },
+              {
+                  "PARAGRAPH": "You can exercise your rights by contacting the DPO at dpo@echolalia.org."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Intellectual property",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "www.echolalia.org is a reserved domain name. Any unauthorized use of the copyrighted material is punishable by criminal and civil penalties."
+              },
+              {
+                  "PARAGRAPH": "No provision of the terms of use may be interpreted as an assignment of intellectual property rights."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Liability Disclaimer",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "Echolalia ensures the proper functioning of the site. However, we will not be liable for any loss resulting the user’s browsing activity including service disruption, hacking issues or computer viruses."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Governing law and jurisdiction",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "These terms of use are governed by French law and the parties agree to submit to the exclusive jurisdiction of the French courts."
+              }
+            ]
+          },
+          {
+            "MAIN_POINT": "Changes to the terms of use",
+            "DESCRIPTION": [
+              {
+                  "PARAGRAPH": "Echolalia reserves the right to update the terms of use in order to take into account, any legal and/or technical changes without the user’s consent. Any revised terms of use will be applicable at the time of its posting on the Echolalia website."
+              }
+            ]
+          }
+        ]
+      }
+    }
+}
