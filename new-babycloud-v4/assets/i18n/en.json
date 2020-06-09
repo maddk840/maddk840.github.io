@@ -202,7 +202,7 @@
               "SRC" : "assets/images/research/publication01.jpg",
               "ALT" : "abstract image that has nothing to do with the publication it represents"
             },
-            "LINK" : "http://www.lscp.net/persons/dupoux/bootphon/page_5.html"
+            "LINK" : "https://arxiv.org/abs/2005.12656"
           },
           {
             "TITLE" : "Seshat: A tool for managing and verifying annotation campaigns of audio data",
@@ -230,10 +230,6 @@
         "SUPPORTER": {
           "SUPPORTERS": [
               {
-                  "SRC": "assets/images/home/logo-amazon.svg",
-                  "ALT": "Amazon Logo"
-              },
-              {
                   "SRC": "assets/images/home/logo-anr.svg",
                   "ALT": "Agence Nationale de la Recherche (ANR) Logo"
               },
@@ -250,16 +246,8 @@
                   "ALT": "École normale supérieure (ENS) logo"
               },
               {
-                  "SRC": "assets/images/home/logo-facebook.svg",
-                  "ALT": "Facebook logo"
-              },
-              {
                   "SRC": "assets/images/home/logo-inria.svg",
                   "ALT": "INRIA Logo"
-              },
-              {
-                  "SRC": "assets/images/home/logo-microsoft.svg",
-                  "ALT": "Microsoft logo"
               },
               {
                   "SRC": "assets/images/home/logo-nsf.svg",
