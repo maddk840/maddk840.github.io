@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html><!DOCTYPE html>
+<html lang="en-us">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        
+        <link rel="canonical" href="/">
+
+        
+        <title>
+            
+            BabyLogger Documentation
+            
+        </title>
+        <meta name="generator" content="Hugo 0.75.1" />
+
+        
+        <link href="/css/fontawesome.min.css" rel="stylesheet">
+
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+        
+        <script src="/js/script.js"></script>
+
+        <link rel="stylesheet" href="https://use.typekit.net/soj6cmr.css">
+
+        
+        
+        <link rel="stylesheet" href="/css/coml.css">
+        
+    </head><body><body><div id="content">
+
+
+<div class="container-fluid p-0" id="content">
+    
+    <div id="left-column">
+        <div class="site-logo-container">
+            <a href="/"><img id="site-logo" src="//images/logo.png" alt="Echolalia Researcher Portal" /></a>
+        </div>
+        
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#about-the-babylogger">About the BabyLogger</a>
+      <ul>
+        <li><a href="#overview-of-the-babylogger">Overview of the BabyLogger</a>
+          <ul>
+            <li><a href="#components">Components</a></li>
+            <li><a href="#inserting-and-removing-the-sd-card-in-the-babylogger">Inserting and removing the SD card in the BabyLogger</a></li>
+            <li><a href="#babylogger-microphones-and-channels">BabyLogger microphones and channels</a></li>
+            <li><a href="#technical-specifications">Technical specifications</a></li>
+          </ul>
+        </li>
+        <li><a href="#how-to-use-the-babylogger">How to use the BabyLogger</a>
+          <ul>
+            <li><a href="#step-1-starting-the-babylogger">Step 1. Starting the Babylogger</a></li>
+            <li><a href="#step-2-recording">Step 2. Recording</a></li>
+            <li><a href="#step-3-turning-off-the-logger">Step 3. Turning off the logger</a></li>
+            <li><a href="#step-4-transferring-recordings">Step 4. Transferring recordings</a></li>
+            <li><a href="#step-5-decrypting-the-recordings">Step 5. Decrypting the recordings</a></li>
+            <li><a href="#step-6-charging-the-logger">Step 6. Charging the logger</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#time-synchronization">Time Synchronization</a>
+          <ul>
+            <li></li>
+          </ul>
+        </li>
+        <li><a href="#sd-card">SD Card</a>
+          <ul>
+            <li><a href="#formatting-the-sd-card">Formatting the SD card</a></li>
+            <li><a href="#creating-a-partition-on-a-new-sd-card">Creating a partition on a new SD card</a></li>
+          </ul>
+        </li>
+        <li><a href="#decrypting-the-data">Decrypting the Data</a>
+          <ul>
+            <li><a href="#download-the-babylogger-software">Download the BabyLogger software</a></li>
+            <li><a href="#how-to-decrypt-the-babylogger-data">How to decrypt the BabyLogger data?</a></li>
+            <li><a href="#the-decrypted-files">The decrypted files</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#automatic-data-processing">Automatic Data Processing</a>
+      <ul>
+        <li><a href="#send-data-to-the-server">Send data to the server</a>
+          <ul>
+            <li><a href="#transfer-files-to-the-cloud">Transfer Files to the Cloud</a></li>
+          </ul>
+        </li>
+        <li><a href="#data-processing">Data processing</a></li>
+        <li><a href="#result-reception">Result reception</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#frequently-asked-questions">Frequently Asked Questions</a>
+      <ul>
+        <li><a href="#problems-in-launching-the-decrypt-software">Problems in launching the decrypt software.</a></li>
+        <li><a href="#problems-in-decrypting-the-files">Problems in decrypting the files.</a></li>
+        <li><a href="#problem-with-decryption-process-on-windows">Problem with decryption process on Windows</a></li>
+        <li><a href="#warnings-during-file-decryption-process">Warnings during file decryption process.</a></li>
+        <li><a href="#data-volume-and-synchronization-software">Data volume and synchronization software.</a></li>
+        <li><a href="#problems-with-the-sd-card">Problems with the SD card</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#contact-informations">Contact informations</a></li>
+  </ul>
+</nav>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+
+    <div id="right-column">
+        <div class="docs-content">
+        
+            <div class="section">
+                <h2 id="about-the-babylogger">About the BabyLogger</h2>
+<h3 id="overview-of-the-babylogger">Overview of the BabyLogger</h3>
+<p>The BabyLogger is a device used by researchers to record the child’s interactions in a secure way and to extract the audio and actimetric information.</p>
+<h4 id="components">Components</h4>
+<p>The following pictures shows the main components of the baby logger:</p>
+<p><img src="/images/2.png" alt="Super wide">
+<img src="/images/33.png" alt="Super wide"></p>
+<!-- raw HTML omitted -->
+<p><img src="/images/4.png" alt="Super wide"><img src="/images/5.png" alt="Super wide"></p>
+<h4 id="inserting-and-removing-the-sd-card-in-the-babylogger">Inserting and removing the SD card in the BabyLogger</h4>
+<p>Remove the cover and insert or remove the SD card from the top of the Logger. Caution: it is a tiny card and it may spring out. Be careful not to lose it.</p>
+<!-- raw HTML omitted -->
+<h4 id="babylogger-microphones-and-channels">BabyLogger microphones and channels</h4>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h4 id="technical-specifications">Technical specifications</h4>
+<ul>
+<li><!-- raw HTML omitted --><!-- raw HTML omitted -->Audio recorder<!-- raw HTML omitted --><!-- raw HTML omitted --> : 4 channels, 16kHz sampling rate, 16bits.</li>
+<li><!-- raw HTML omitted --><!-- raw HTML omitted -->Actimeter<!-- raw HTML omitted --><!-- raw HTML omitted --> : xzy gyroscope, and xyz accelerometer, 100Hz sampling rate.</li>
+<li><!-- raw HTML omitted --><!-- raw HTML omitted -->Dimensions<!-- raw HTML omitted --><!-- raw HTML omitted --> : <strong>L</strong>: 7,5cms, <strong>H</strong>: 4,7cms (5cms with cover), <strong>D</strong>: 1,5cms (1,9cms with cover).</li>
+<li><!-- raw HTML omitted --><!-- raw HTML omitted -->Weight<!-- raw HTML omitted --><!-- raw HTML omitted --> : 200g.</li>
+<li><!-- raw HTML omitted -->Millisecond time stamping<!-- raw HTML omitted -->.</li>
+<li><!-- raw HTML omitted --><!-- raw HTML omitted -->Capacity<!-- raw HTML omitted --><!-- raw HTML omitted --> : 62 hours / 124 hours (for 32GB / 63GB SD card storage).</li>
+<li><!-- raw HTML omitted --><!-- raw HTML omitted -->Autonomy<!-- raw HTML omitted --><!-- raw HTML omitted --> : 24h.</li>
+<li><!-- raw HTML omitted --><!-- raw HTML omitted -->Charging time<!-- raw HTML omitted --><!-- raw HTML omitted --> : 2-3 hours (on a 5v 1-2A USB charger).</li>
+</ul>
+<h3 id="how-to-use-the-babylogger">How to use the BabyLogger</h3>
+<p>The BabyLogger is very simple to use. It has a single button used to <em>power on</em> the logger (short press) and to turn it off (long press). The different states of the BabyLogger are indicated via two LEDs:  <!-- raw HTML omitted --><strong>GREEN</strong> <!-- raw HTML omitted --> and  <!-- raw HTML omitted --><strong>RED</strong> <!-- raw HTML omitted --> (for LED states see Step 1).</p>
+<p>The device consists of two parts: a main body and a cover. Removing the cover allows for access to the SD card, and power plug (micro USB).</p>
+<p>To use the BabyLogger for recording, ensure the cover is on before inserting the logger into the chest pocket of the participant with the microphone on the top of the logger facing up and the other three microphones facing out as shown in figure 2.</p>
+<p>The BabyLogger has a 24 hour continuous recording capacity (for both battery and data). After each recording session, you’ll have to transfer the data to your computer through the SD card, delete all files on the SD card, and recharge your BabyLogger.</p>
+<p>Different steps to explain how to use the BabyLogger.</p>
+<h4 id="step-1-starting-the-babylogger">Step 1. Starting the Babylogger</h4>
+<ul>
+<li>Press briefly on the power button.</li>
+</ul>
+<ul>
+<li>
+<p><strong>Internal checks:</strong></p>
+<ul>
+<li>Immediately after powering on the device will go through a series of internal checks (battery, SD card) that will take a few seconds.</li>
+</ul>
+</li>
+<li>
+<p><strong>The device is ready for use if:</strong></p>
+<ul>
+<li>the <!-- raw HTML omitted --><strong>GREEN LED</strong> <!-- raw HTML omitted --> is lit and if the <!-- raw HTML omitted --><strong>RED LED</strong> <!-- raw HTML omitted --> blinks continuously: you have less than 15% of the battery (less than 4h of recording).</li>
+<li>the <!-- raw HTML omitted --><strong>GREEN LED</strong> <!-- raw HTML omitted -->  blinks once, then remains lit: less than 50% of the battery.</li>
+<li>the <!-- raw HTML omitted --><strong>GREEN LED</strong> <!-- raw HTML omitted -->  blinks twice, then remains lit: less than 75% of the battery</li>
+<li>the <!-- raw HTML omitted --><strong>GREEN LED</strong> <!-- raw HTML omitted -->  blinks 3x, hen remains lit: more than 75% of the battery.</li>
+</ul>
+</li>
+<li>
+<p><strong>The device is not ready for use if:</strong></p>
+<ul>
+<li>After powering on, neither of the  <strong>2 LEDs</strong> are <strong>ON</strong>:  the battery is critically low and needs to be charged immediately.</li>
+<li>During recording, the <!-- raw HTML omitted --><strong>RED LED</strong> <!-- raw HTML omitted -->  blinks 3 times and stops: the battery is very low. You have to charge it.</li>
+<li>After powering on, the <!-- raw HTML omitted --><strong>GREEN LED</strong> <!-- raw HTML omitted -->  is <strong>ON</strong> and turns <strong>OFF</strong> after a few seconds: there is a problem with the SD card (unplugged, corrupted or full). Check whether the SD card is present. If present, transfer the files to a computer and remove the files (see Step 4). If the problem is not solved, you will have to reformat the two partitions of the card. If the problem persists, try to change the SD card <a href="/getting-started/sd_card/">see this section</a> to replace the SD card).</li>
+</ul>
+</li>
+</ul>
+<h4 id="step-2-recording">Step 2. Recording</h4>
+<p>With the <!-- raw HTML omitted --><strong>GREEN LED</strong> <!-- raw HTML omitted --> LED continuously lit, the BabyLogger is now in the recording phase  if the ( <!-- raw HTML omitted --><strong>RED LED</strong> <!-- raw HTML omitted -->  is blinking, it shows that the battery is low).</p>
+<p>Insert the BabyLogger in the chest pocket with the top of the cover facing up, and the three microphones in the front facing out.</p>
+<h4 id="step-3-turning-off-the-logger">Step 3. Turning off the logger</h4>
+<p>Turn off the BabyLogger by pressing the power button (long press, 3 seconds). <strong>All LEDs</strong> should be <strong>off</strong>.</p>
+<h4 id="step-4-transferring-recordings">Step 4. Transferring recordings</h4>
+<ul>
+<li>
+<ol>
+<li>Remove the cover and push the SD card out. Be careful: the SD card may shoot out of the slot and can be easily lost &ndash; it is tiny.</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>Put the SD card in a MicroSD adaptor and plug it into the computer.</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>Boot your computer(for software installation see <a href="/getting-started/decrypt/">here</a>), drag and drop the files from both partitions on the MicroSD (BL_MOTION and BL_AUDIO) into the Raw_Data folder on your computer.</li>
+</ol>
+</li>
+</ul>
+<h5 id="span-stylecolorredwarningspan"><!-- raw HTML omitted -->WARNING<!-- raw HTML omitted --></h5>
+<p>Be careful, if using more than one logger, transfer and decrypt the first logger’s raw files before transferring the second logger’s raw files. All loggers use the same file name pattern, therefore you will overwrite the first logger’s raw files if they are not decrypted before transferring files from the second logger.</p>
+<h4 id="step-5-decrypting-the-recordings">Step 5. Decrypting the recordings</h4>
+<p>To decrypt the files, follow the <a href="/getting-started/decrypt/">decrypt process</a>.</p>
+<h4 id="step-6-charging-the-logger">Step 6. Charging the logger</h4>
+<p>Remove the logger’s cover. Plug the micro USB end of the charging cord into the logger’s Micro USB port. Plug the USB end into any computer USB port or phone charger with a USB port. To avoid damaging the battery, make sure the voltage of the charger is no higher than 5V. For a normal charging time, ensure the current capacity is between 1A and 2A.</p>
+<!-- raw HTML omitted -->
+<p><strong>NOTE:</strong>
+You can use a USB/ Micro-USB cable to charge the Logger with any standard charger (or computer).</p>
+<p>The <!-- raw HTML omitted --><strong>GREEN</strong> <!-- raw HTML omitted --> and  <!-- raw HTML omitted --><strong>RED</strong> <!-- raw HTML omitted --> <strong>LEDs</strong> blink steadily while the logger is charging. Once the device is fully charged, both LEDs will turn off. The device will turn itself off automatically. The logger takes 2-3 hours to fully charge.</p>
+<h5 id="span-stylecolorredwarningspan-1"><!-- raw HTML omitted -->WARNING<!-- raw HTML omitted --></h5>
+<ul>
+<li>While the logger is charging, it is not possible to record.</li>
+<li>Once the logger has been fully charged, the device must be used at least once before it will be able to charge again. This is for power saving purposes designed to prevent the logger from draining portable external batteries.</li>
+<li>To avoid losing data, we strongly recommend following step 1 to step 5 through fully, without skipping any steps. Most importantly, remember to fully transfer the data and recharge the logger after each recording session.</li>
+</ul>
+
+            </div>
+            
+        
+            <div class="section">
+                <h2 id="getting-started">Getting Started</h2>
+<h3 id="time-synchronization">Time Synchronization</h3>
+<p>A phone application has been developed to allow you to synchronize the date and time of the BabyLogger depending on your time zone.</p>
+<h5 id="instructions">Instructions:</h5>
+<ul>
+<li>
+<p><strong>What is needed: a phone application (Android only)</strong> :</p>
+<ul>
+<li>An Android phone is required to use the application (no IOS support currently).</li>
+<li>Download the time synchronization application, <a href="https://s3.console.aws.amazon.com/s3/object/packages.babycloudlab.com/ble_init.apk?region=eu-west-1&amp;tab=overview">here</a> onto your phone.</li>
+<li>Alternatively, you can also download the application from the email received by the <em>Echolalia Team</em>, by double clicking on the <strong><a href="xxx">APK</a></strong>.</li>
+<li>Make sure that you have the application installed on your phone.</li>
+</ul>
+</li>
+<li>
+<p><strong>The process</strong> :</p>
+<ul>
+<li>Power on the bluetooth of your phone.</li>
+<li>In order to modify the date and time on the BabyLogger, you need to charge the logger AND be connected to the phone application via the bluetooth of the logger.</li>
+<li>Pair the phone with the logger bluetooth name <strong>&ldquo;BabyLogger&rdquo;</strong> with password <strong>&ldquo;123456&rdquo;</strong>. You have 10 minutes to update the time. If the process is not completed during that time, you will have to start over.</li>
+<li>Once the logger is connected to your phone, the LED of the logger will change from RED (charging  mode) to <!-- raw HTML omitted --><strong>GREEN</strong> <!-- raw HTML omitted -->/<!-- raw HTML omitted --><strong>RED</strong> <!-- raw HTML omitted -->.</li>
+<li>Open the application and click on the <strong>Update Time</strong> button.</li>
+<li>Now, the LED will switch to <!-- raw HTML omitted --><strong>RED</strong> <!-- raw HTML omitted --> only, which means that the Baby Logger has correctly synchronized with your Timezone.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Note: you should synchronize the time of your logger, right after receiving it, and also every time that it has been powered off for several weeks.</strong>
+Watch this <a href="/">video</a>, for the process</p>
+<h3 id="sd-card">SD Card</h3>
+<h4 id="formatting-the-sd-card">Formatting the SD card</h4>
+<p>With 64 GO SD card, Create two partitions with the first one containing 95% of the memory area and the second one 5%. The card should be formatted in the NTFS File System, and the partitions should be created in a fixed order (audio first, accelerometer second). The table below gives the names and sizes of the partitions that should be created according to your SD card size.</p>
+<table>
+<thead>
+<tr>
+<th>Partition</th>
+<th>Name of partition</th>
+<th>partition_size</th>
+<th>partition_type</th>
+<th>size_unity_allocation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Partition 1</td>
+<td>BL_AUDIO</td>
+<td>60.8GB</td>
+<td>EXFAT</td>
+<td>64Ko</td>
+</tr>
+<tr>
+<td>Partition 2</td>
+<td>BL_MOTION</td>
+<td>3.2GB</td>
+<td>FAT32</td>
+<td>32Ko</td>
+</tr>
+</tbody>
+</table>
+<h4 id="creating-a-partition-on-a-new-sd-card">Creating a partition on a new SD card</h4>
+<ul>
+<li>
+<p>You can follow this <a href="https://www.youtube.com/watch?v=OZVFvBzQRbs&amp;feature=youtu.be">tutorial</a> that we made on windows and it can help you.</p>
+</li>
+<li>
+<p>Or you can follow this link, that explain this process for each OS:</p>
+<ul>
+<li><a href="https://www.wikihow.com/Partition-an-SD-Card#Windows_sub">Windows</a></li>
+<li><a href="https://askubuntu.com/questions/240f497/partitioning-sd-card">Linux</a></li>
+<li><a href="https://www.wikihow.com/Partition-an-SD-Card#Mac-OS-X_sub">MacOs</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="decrypting-the-data">Decrypting the Data</h3>
+<p>All data recorded with the BabyLogger are encrypted for data protection. If the logger is lost, nobody except for the registered user will be able to decrypt the data. For that reason, do not share the downloaded software as well as the security key folder.
+This is a <a href="/">Tutorial</a>, to explain how to decrypt data on MacOs, the same process can be follow on the other OS.</p>
+<p><strong><!-- raw HTML omitted -->NOTE:<!-- raw HTML omitted --></strong>
+please make sure your computer has the proper protection (antivirus, hard drive encryption, password logins). It is going to contain unencrypted sensitive personal data collected in families; you are responsible for the proper protection of this data.</p>
+<h4 id="download-the-babylogger-software">Download the BabyLogger software</h4>
+<ul>
+<li>Download the BabyLogger&rsquo;s Software Package corresponding to your computer&rsquo;s operating system from the link that you received on the email.
+<ul>
+<li><a href="/Linux_babylogger_decrypt.zip">Linux</a> .</li>
+<li><a href="MacOS_babylogger_decrypt.zip">MacOs</a> .</li>
+<li><a href="Windows_babylogger_decrypt.zip">Windows</a>.</li>
+</ul>
+</li>
+<li>Enter the passcode given on the email  to unzip the folder OSname_babylogger_decrypt.
+. This step will create a <strong>BabyLogger</strong> folder.</li>
+<li>Inside the folder, there is an executable file to launch the decryption software(babylogger_OSname) and three subfolders:
+<ul>
+<li><strong>Raw_Data :</strong> which contains temporary files for transfer.</li>
+<li><strong>Decrypted_Data:</strong> which contains decrypted data.</li>
+<li><strong>Key:</strong> which contains the keys associated with your loggers. <strong>DON&rsquo;T EVER CHANGE THE KEY FOLDER CONTENT</strong></li>
+</ul>
+</li>
+</ul>
+<h4 id="how-to-decrypt-the-babylogger-data">How to decrypt the BabyLogger data?</h4>
+<p>Once you start transferring data from the MicroSD, all the data needs to be transferred and then deleted (otherwise the logger could be confused and overwrite the remaining data when it is in recording mode again).</p>
+<ol>
+<li>Launch the decryption process by choosing one of these 2 options:</li>
+</ol>
+<ul>
+<li>
+<p>A) Double-click on the <strong>babylogger_OSname</strong> app icon to launch the decryption process.</p>
+</li>
+<li>
+<p>B) If you have a problem on double click app, navigate to the <strong>Osname_babylogger_decrypt</strong> folder according to your OS and run the following command: <strong>./babylogger_OSname</strong> .</p>
+</li>
+<li>
+<p><strong>example</strong>:</p>
+</li>
+</ul>
+<pre><code>if you use MacOS, navigateto the  *MacOS_babylogger_decrypt* folder and tape ./babylogger_MacOS on the terminal.
+</code></pre>
+<p><em>(if you encounter any problem, see the FAQ section)</em>.</p>
+<ol start="2">
+<li>The decrypting process creates the audio (.wav) and accelerometer files in the “Decrypt_Data” folder; the files are now ready to be copied for backing up. Each file has now a unique name (LoggerID and date).</li>
+<li>You can then copy them for backup or move them for further processing. The files have now a unique name (associated with the logger ID and date).</li>
+<li>Delete all remaining files in the <strong>Raw_data</strong> folder.</li>
+<li>Delete all files from both partitions of the MicroSD.</li>
+</ol>
+<p><!-- raw HTML omitted --><strong>WARNING:</strong> <!-- raw HTML omitted -->.</p>
+<p>Be careful, if using more than one logger, transfer and decrypt the first logger’s raw files before transferring the second logger’s raw files. All loggers use the same file name pattern, therefore you will overwrite the first logger’s raw files if they are not decrypted before transferring files from the second logger.</p>
+<h4 id="the-decrypted-files">The decrypted files</h4>
+<p>The decrypted files can be found in the <strong>Decrypt_Data</strong> folder. You will find three types of files :</p>
+<ol>
+<li><strong>Audio files</strong> (XX-Audio.wav): audio files recorded with frequency of 16kz, 16 bits and 4 channels. their duration is no longer than 30mins long.
+<ul>
+<li>Audio file example: <code>0002-20200115-20_40_07-Audio.wav</code></li>
+</ul>
+</li>
+<li><strong>Actimetry files</strong>  (XX-Acti.txt): it has the  Accelerometer and Gyroscope informations.
+<ul>
+<li>Actimetry file example: <code>0002-20200115-20_40_07-Acti.txt</code></li>
+</ul>
+</li>
+<li><strong>Meta data files</strong> (XX-Data.txt):recording information (e.g., number buffers, times stamps&hellip;)
+<ul>
+<li>Meta data file example: <code>0002-20200115-20_40_07-Data.txt</code></li>
+</ul>
+</li>
+</ol>
+            </div>
+            
+        
+            <div class="section">
+                <h2 id="automatic-data-processing">Automatic Data Processing</h2>
+<h3 id="send-data-to-the-server">Send data to the server</h3>
+<p>This section is to explain the steps to send file&rsquo;s data to the server, in order to treat them, you can follow this documentation step by step or you can find all of this on this <a href="https://www.youtube.com/watch?v=seTY6lqetRI&amp;t=97s">tutorial</a>.</p>
+<h4 id="transfer-files-to-the-cloud">Transfer Files to the Cloud</h4>
+<p>To transfer files data to the server we use the FileZilla software as a solution.</p>
+<h5 id="using-filezilla-software-sftp-client">Using FileZilla software (SFTP Client)</h5>
+<p>FileZilla may be used for secure file transfer using SFTP or FTPS between clients and server.</p>
+<ul>
+<li>
+<p><strong>Installation</strong></p>
+<p>You can download filezilla software  <a href="https://filezilla-project.org/">here</a> according to your operating system.</p>
+</li>
+<li>
+<p><strong>Set up a Server Connection</strong></p>
+</li>
+</ul>
+<ol>
+<li>Start FileZilla. Click the FileZilla icon .</li>
+<li>From the File menu, select Site Manager.</li>
+<li>Click New Site</li>
+<li>Do the following:
+<ul>
+<li>In the Host box, enter the address of the server you&rsquo;re connecting to <code>129.199.81.135</code>.</li>
+<li>Click the arrow in the Server Type box, and then:</li>
+<li>For FTPS transfers, select FTP over SSL (explicit encryption).</li>
+<li>In the Logontype box, click Normal.</li>
+<li>In the User box, enter the username you were assigned for this server.</li>
+<li>Click the Don&rsquo;t save password box.</li>
+<li>you already received on the email.</li>
+</ul>
+</li>
+<li>Click Save and Exit.
+The next time you open FileZilla, you can connect directly to this server using the options you chose. For instructions, see Transfer Files Using FileZilla below.</li>
+</ol>
+<ul>
+<li><strong>Transfer Files Using FileZilla</strong></li>
+</ul>
+<ol>
+<li>Start FileZilla. Click the FileZilla icon on your desktop or in your computer.</li>
+<li>Click the arrow next to the Open Site Manager button, and then select the server you set up in the previous procedure.</li>
+<li>In Address box, enter the server Ip address which is : <code>129.199.81.135</code>.On the Username and Password box, enter your renter the informations given on the email, and then click OK.</li>
+<li>FileZilla opens. Your computer (Local Site) is on the left and the server (Remote Site) is on the right. Navigate to different locations on either system.</li>
+<li>Create on your local computer a folder name <code>Data_to_process</code> ,put there all the data files you want to treat.</li>
+<li>if you use the Babylogger, you can send the decrypted files on the <code>Decrypte_Data</code> folder or send the encrypted files on the <code>Raw_Data</code> folder.</li>
+<li>Drag and drop  this folder left part(Server).</li>
+<li>For more information, click Help in the FileZilla.</li>
+</ol>
+<!-- raw HTML omitted -->
+<h3 id="data-processing">Data processing</h3>
+<p>Here are the different algorithms used to treat the data.</p>
+<!-- raw HTML omitted -->
+<ol>
+<li><strong>Pyannote</strong>
+An  open-source  toolkit written in Python for speaker diarization. Pyannote allows the following tasks:</li>
+</ol>
+<ul>
+<li><em>Voice Activity Detection (VAD)</em> is the task of detecting speech regionsin a given audio stream or recording. The ouput for this in the rttm file is SPEECH. To this label, is associated the onset and the duration.</li>
+<li><em>Speaker change detection</em> is the task of detecting speaker change points in a given audio stream or recording. Currently, the labels we output are:</li>
+<li><strong>KCHI</strong> (key child), <strong>OCH</strong> (other children),<strong>MAL</strong> (male adult.s), <strong>FEM</strong> (female adult.s).</li>
+</ul>
+<p>Note that for the last 3 categories, speakers of the same type are aggregated. For example, we don&rsquo;t make the distinction if there are 3 distinct female speakers. They are all labelled under FEM.</p>
+<ul>
+<li>Here&rsquo;s a sample output of the rttm file using the Pyannote algorithm:</li>
+<li>SPEAKER FEM_MA_speech_test_3_16000Hz_16bit_mono 1 1.011 4.506 <!-- raw HTML omitted --> <!-- raw HTML omitted --> SPEECH <!-- raw HTML omitted --> <!-- raw HTML omitted --></li>
+<li>SPEAKER FEM_MA_speech_test_3_16000Hz_16bit_mono 1 1.014 4.475 <!-- raw HTML omitted --> <!-- raw HTML omitted --> MAL <!-- raw HTML omitted --> <!-- raw HTML omitted --></li>
+</ul>
+<ol>
+<li><strong>ALICE</strong></li>
+</ol>
+<p>An open-source and language-independent tool for automatic measurement of phoneme, syllable, and word counts.
+ALICE allows the following measurements:</p>
+<ul>
+<li>
+<p><em>Count of total phones/phonemes</em> per file,</p>
+</li>
+<li>
+<p><em>Count of total syllables</em> per file,</p>
+</li>
+<li>
+<p><em>Count of total words</em> per file.</p>
+</li>
+<li>
+<p>Here&rsquo;s a sample output using the ALICE algorithm:</p>
+</li>
+<li>
+<p>FileID phonemes syllables words.</p>
+</li>
+<li>
+<p>FEM_speech_test_2_16000Hz_16bit_mono 227 111 72.</p>
+</li>
+<li>
+<p>MA_speech_test_1_16000Hz_16bit_mono 239 118 79.</p>
+</li>
+</ul>
+<p><strong>References:</strong></p>
+<ul>
+<li>Bredin, H., Yin, R., Coria, J. M., Gelly, G., Korshunov, P., Lavechin, M., Fustes, D., Titeux, H., Bouaziz, W. and Gill, M.-P. (2020). pyannote.audio: neural building blocks for speaker diarization. In International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2020.</li>
+<li>Lavechin, M., Bousbib, R., Bredin, H., Dupoux, E., &amp; Cristia, A. (submitted). An open-source voice type classifier for child-centered daylong recordings. Submitted to Interspeech-2020, October 25–29, Shanghai, China. Online arXiv pre-print: <a href="https://arxiv.org/pdf/2005.12656.pdf">https://arxiv.org/pdf/2005.12656.pdf</a></li>
+<li>Räsänen O, Seshadri S, Lavechin M, Cristia A, Casillas M. ALICE: An open-source tool for automatic measurement of phoneme, syllable, and word counts from child-centered daylong recordings. Behav Res Methods. 2020 Sep 1. doi: 10.3758/s13428-020-01460-x. Epub ahead of print. PMID: 32875399.</li>
+</ul>
+<!-- raw HTML omitted -->
+<h3 id="result-reception">Result reception</h3>
+<p>When all the data are treat, you will receive an email notification in order to get the result data.
+follow this video for more explications <a href="https://youtu.be/cO3RGgTE2hA">tutorial</a>.</p>
+<p><strong>Data reception steps</strong></p>
+<ul>
+<li>Connect to FileZilla software, using the same method on the send section with the same login information.</li>
+<li>On the right section (Remote server) you can find a folder with the decrypted data if you already  sent an encrypted data of the BabyLogger.you can also find your wave files if you have sent audio files recorded by other devices and the result of the treatment algorithms are on a folder name  <code>output_result</code> .</li>
+</ul>
+            </div>
+            
+        
+            <div class="section">
+                <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+<ul>
+<li>[Problems in launching the decrypt software.](#Problems in launching the decrypt software.)</li>
+<li>[Problems in decrypting the files.](#Problems in decrypting the files.)</li>
+<li>[Warnings during file decryption process.](#Warnings during file decryption process.)</li>
+<li>[Data volume and synchronization software](#Data volume and synchronization software)</li>
+<li>[Problems with the SD card](#Problems with the SD card)</li>
+</ul>
+<h3 id="problems-in-launching-the-decrypt-software">Problems in launching the decrypt software.</h3>
+<p>If you use <strong>MacOS</strong>, the first time when you double-click on BabyLogger, a window like the following may appear:</p>
+<!-- raw HTML omitted -->
+<p>To resolve this problem, you have 2 options:</p>
+<ol>
+<li>
+<p>Authorize this application in the Security &amp; Privacy tab of System Preferences and try again.</p>
+</li>
+<li>
+<p>Use the terminal:</p>
+<ul>
+<li>Open a terminal: Ctrl+cmd+T (Linux), by searching for terminal (MacOS) or type cmd (Windows).</li>
+<li>Go to the path where to find the installed MacOS_babylogger_decrypt folder for example.</li>
+<li>Type the following command on a terminal: ./babylogger_OSname (for Linux and MacOS) and babylogger_windows.exe (for Windows).</li>
+</ul>
+</li>
+</ol>
+<p>If you use <strong>Windows</strong>, if you have a warning (see the picture below) when you double click the Windows_babylogger_decrypt app, click on Run anyway.</p>
+<!-- raw HTML omitted -->
+<h3 id="problems-in-decrypting-the-files">Problems in decrypting the files.</h3>
+<p>The decryption software is tuned to the particular loggers that you have ordered. This is for data protection. If a logger is lost, nobody except the registered user will be able to decrypt the data. It also means that you should not distribute the software that you have downloaded. It contains a set of keys dedicated for your specific loggers. The keys are in the directory keys/ and you should not change or remove anything in this directory.</p>
+<p>If you encounter a problem, re-download the software and make sure that you are using the correct set of loggers (the logger IDs appear in the audio, meta data and accelerometer files).</p>
+<h3 id="problem-with-decryption-process-on-windows">Problem with decryption process on Windows</h3>
+<p>On Windows , if you have a warning (see the picture below) when you double click the Windows_babylogger_decrypt app, click on <em>Run anyway</em>.</p>
+<!-- raw HTML omitted -->
+<h3 id="warnings-during-file-decryption-process">Warnings during file decryption process.</h3>
+<p>The decryption process runs a check on data integrity. In case of warnings, it means that part of the audio is missing, which could be due to problems with the hardware (the Logger or the SD Card).</p>
+<h3 id="data-volume-and-synchronization-software">Data volume and synchronization software.</h3>
+<p><strong>WARNING</strong></p>
+<ul>
+<li>
+<p>The logger files are large and will take up lots of hard drive space (around 60% more than the size of the SD Card in use). For example, for a 64GB storage on the SD card, 100GB will be required on the hard drive. f you are using an automatic synchronization on the cloud (icloud, dropbox, etc), be careful to exclude the Logger directories from automatic backup! This may slow down everything and saturate your storage allocation.</p>
+</li>
+<li>
+<p>If you use a MacOS and you synchronyze the MacOS storage with the icloud, make sure that when you copy the files onto the &lsquo;Raw_Data&rsquo; folder, these stay on your own device (local storage) and are not synced with the icloud.
+In the following example, it means that the file is in the icloud and not on the local device.</p>
+</li>
+<li>
+<p>If that happens, delete the files and re-copy them. They should be this time on your local device, and make sure that no cloud logo exist like in the previous picture.</p>
+</li>
+</ul>
+<h3 id="problems-with-the-sd-card">Problems with the SD card</h3>
+<p>If you use Linux and while copying the files from the SD card, you encounter issues with the SD Card format, type the following commands:</p>
+<pre><code>- `sudo add-apt-repository universe`
+- `sudo apt update`
+- `sudo apt install exfat-fuse exfat-utils`
+</code></pre>
+            </div>
+            
+        
+            <div class="section">
+                <h2 id="contact-informations">Contact informations</h2>
+<ul>
+<li>
+<p><strong>Phone</strong> : +33 6 52 20 64 18</p>
+</li>
+<li>
+<p><strong>Address</strong> : 2 Rue Simone iff 75012 Paris, France</p>
+</li>
+<li>
+<p><a href="mailto:contact@echolalia.org"><strong>Technical Support or Questions</strong></a></p>
+</li>
+<li>
+<p><strong>Hire Us</strong> :
+We are available for Hiring of your recommandations. Drop Us a mail <a href="mailto:contact@echolalia.org">contact@echolalia.org</a> .</p>
+</li>
+</ul>
+            </div>
+            
+        
+            <div class="section">
+                
+            </div>
+            
+        
+            <div class="section">
+                
+            </div>
+            
+        
+            <div class="section">
+                
+            </div>
+            
+        
+            <div class="section">
+                
+            </div>
+            
+        
+        </div>
+        <div class="footer-space"></div>
+    </div>
+
+</div>
+
+
+
+        </div>    </body>
+</html></body>
+</html>
