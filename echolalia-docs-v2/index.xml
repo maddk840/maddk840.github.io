@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BabyLogger Documentation</title>
-    <link>/</link>
+    <link>https://maddk840.github.io/echolalia-docs-v2/</link>
     <description>Recent content on BabyLogger Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://maddk840.github.io/echolalia-docs-v2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is the BabyLogger</title>
-      <link>/docs/100.-what-is-the-baby-logger/</link>
+      <link>https://maddk840.github.io/echolalia-docs-v2/docs/100.-what-is-the-baby-logger/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/100.-what-is-the-baby-logger/</guid>
+      <guid>https://maddk840.github.io/echolalia-docs-v2/docs/100.-what-is-the-baby-logger/</guid>
       <description>About the BabyLogger Overview of the BabyLogger The BabyLogger is a device used by researchers to record the child’s interactions in a secure way and to extract the audio and actimetric information.
 Components The following pictures shows the main components of the baby logger:
 Inserting and removing the SD card in the BabyLogger Remove the cover and insert or remove the SD card from the top of the Logger. Caution: it is a tiny card and it may spring out.</description>
@@ -19,10 +19,10 @@ Inserting and removing the SD card in the BabyLogger Remove the cover and insert
     
     <item>
       <title>Getting Started</title>
-      <link>/docs/200.-getting-started/</link>
+      <link>https://maddk840.github.io/echolalia-docs-v2/docs/200.-getting-started/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/200.-getting-started/</guid>
+      <guid>https://maddk840.github.io/echolalia-docs-v2/docs/200.-getting-started/</guid>
       <description>&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
 &lt;h3 id=&#34;time-synchronization&#34;&gt;Time Synchronization&lt;/h3&gt;
 &lt;p&gt;A phone application has been developed to allow you to synchronize the date and time of the BabyLogger depending on your time zone.&lt;/p&gt;
@@ -50,7 +50,7 @@ Inserting and removing the SD card in the BabyLogger Remove the cover and insert
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Note: you should synchronize the time of your logger, right after receiving it, and also every time that it has been powered off for several weeks.&lt;/strong&gt;
-Watch this &lt;a href=&#34;/&#34;&gt;video&lt;/a&gt;, for the process&lt;/p&gt;
+Watch this &lt;a href=&#34;https://maddk840.github.io/echolalia-docs-v2/&#34;&gt;video&lt;/a&gt;, for the process&lt;/p&gt;
 &lt;h3 id=&#34;sd-card&#34;&gt;SD Card&lt;/h3&gt;
 &lt;h4 id=&#34;formatting-the-sd-card&#34;&gt;Formatting the SD card&lt;/h4&gt;
 &lt;p&gt;With 64 GO SD card, Create two partitions with the first one containing 95% of the memory area and the second one 5%. The card should be formatted in the NTFS File System, and the partitions should be created in a fixed order (audio first, accelerometer second). The table below gives the names and sizes of the partitions that should be created according to your SD card size.&lt;/p&gt;
@@ -97,15 +97,15 @@ Watch this &lt;a href=&#34;/&#34;&gt;video&lt;/a&gt;, for the process&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;decrypting-the-data&#34;&gt;Decrypting the Data&lt;/h3&gt;
 &lt;p&gt;All data recorded with the BabyLogger are encrypted for data protection. If the logger is lost, nobody except for the registered user will be able to decrypt the data. For that reason, do not share the downloaded software as well as the security key folder.
-This is a &lt;a href=&#34;/&#34;&gt;Tutorial&lt;/a&gt;, to explain how to decrypt data on MacOs, the same process can be follow on the other OS.&lt;/p&gt;</description>
+This is a &lt;a href=&#34;https://maddk840.github.io/echolalia-docs-v2/&#34;&gt;Tutorial&lt;/a&gt;, to explain how to decrypt data on MacOs, the same process can be follow on the other OS.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Automatic Data Processing</title>
-      <link>/docs/300.-automatic-data-processing/</link>
+      <link>https://maddk840.github.io/echolalia-docs-v2/docs/300.-automatic-data-processing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/300.-automatic-data-processing/</guid>
+      <guid>https://maddk840.github.io/echolalia-docs-v2/docs/300.-automatic-data-processing/</guid>
       <description>&lt;h2 id=&#34;automatic-data-processing&#34;&gt;Automatic Data Processing&lt;/h2&gt;
 &lt;h3 id=&#34;send-data-to-the-server&#34;&gt;Send data to the server&lt;/h3&gt;
 &lt;p&gt;This section is to explain the steps to send file&amp;rsquo;s data to the server, in order to treat them, you can follow this documentation step by step or you can find all of this on this &lt;a href=&#34;https://www.youtube.com/watch?v=seTY6lqetRI&amp;amp;t=97s&#34;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;</description>
@@ -113,19 +113,19 @@ This is a &lt;a href=&#34;/&#34;&gt;Tutorial&lt;/a&gt;, to explain how to decryp
     
     <item>
       <title>FAQs</title>
-      <link>/docs/400.-frequently-asked-questions/</link>
+      <link>https://maddk840.github.io/echolalia-docs-v2/docs/400.-frequently-asked-questions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/400.-frequently-asked-questions/</guid>
+      <guid>https://maddk840.github.io/echolalia-docs-v2/docs/400.-frequently-asked-questions/</guid>
       <description>&lt;h2 id=&#34;frequently-asked-questions&#34;&gt;Frequently Asked Questions&lt;/h2&gt;</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/docs/500.-contact/</link>
+      <link>https://maddk840.github.io/echolalia-docs-v2/docs/500.-contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/500.-contact/</guid>
+      <guid>https://maddk840.github.io/echolalia-docs-v2/docs/500.-contact/</guid>
       <description>&lt;h2 id=&#34;contact-informations&#34;&gt;Contact informations&lt;/h2&gt;</description>
     </item>
     
