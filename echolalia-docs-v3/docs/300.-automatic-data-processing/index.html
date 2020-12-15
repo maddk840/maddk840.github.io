@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html><!DOCTYPE html>
+<html lang="en-us">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        
+        <link rel="canonical" href="/docs/300.-automatic-data-processing/">
+
+        
+        <title>
+            
+            Automatic Data Processing | BabyLogger Documentation
+            
+        </title>
+        <meta name="generator" content="Hugo 0.73.0" />
+
+        
+        <link href="/css/fontawesome.min.css" rel="stylesheet">
+
+        
+
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+        
+        <script src="/js/script.js"></script>
+
+        <link rel="stylesheet" href="https://use.typekit.net/soj6cmr.css">
+
+        
+        
+        <link rel="stylesheet" href="/css/coml.css">
+
+
+        
+        <link rel="shortcut icon" href="/favicons/favicon.png" type="image/x-icon">
+        <link rel="icon" href="/favicons/favicon.png" type="image/x-icon">
+        
+    </head><body><body><div id="content">
+
+<h1> Automatic Data Processing </h1>
+<p> <h2 id="automatic-data-processing">Automatic Data Processing</h2>
+<p>This section describes the steps to send the collected data to the server and to process them. To transfer the files data to the server, we use the FileZilla software as a solution. FileZilla may be used for secure file transfer using SFTP or FTPS between clients and server. You can follow the steps below or watch this tutorial.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/seTY6lqetRI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+<h3 id="transferring-the-files-to-the-cloud-using-filezilla">Transferring the files to the Cloud using FileZilla</h3>
+<ul>
+<li>
+<p><strong>Installation</strong></p>
+<ul>
+<li>You can download the filezilla software  <a href="https://filezilla-project.org/">here</a> according to your operating system.</li>
+</ul>
+</li>
+<li>
+<p><strong>Setting up a Server Connection</strong></p>
+<ol>
+<li>Start FileZilla by clicking on the FileZilla icon.</li>
+<li>From the File menu, select &lsquo;Site Manager&rsquo;.</li>
+<li>Click New Site</li>
+<li>Enter the following:
+<ul>
+<li>In the Host box, enter the address of the server you&rsquo;re connecting to <code>129.199.81.135</code>.</li>
+<li>Click the arrow in the &lsquo;Server Type&rsquo; box, and then:</li>
+<li>For FTPS transfers, select &lsquo;FTP over SSL&rsquo; (explicit encryption).</li>
+<li>In the &lsquo;Logontype&rsquo; box, check &lsquo;Normal&rsquo;.</li>
+<li>In the &lsquo;User&rsquo; box, enter the username you were assigned for this server (and received via email)</li>
+<li>Click the &lsquo;Don&rsquo;t save password&rsquo; box.</li>
+</ul>
+</li>
+<li>Click Save and Exit.</li>
+</ol>
+</li>
+</ul>
+<p>The next time you open FileZilla, you can connect directly to this server using the options you chose. For instructions, see Transfer Files Using FileZilla below.</p>
+<ul>
+<li><strong>Transferring the files Using</strong>
+<ol>
+<li>Start FileZilla.</li>
+<li>Click the arrow next to the &lsquo;Open Site Manager&rsquo; button, and then select the server you set up in the previous procedure.</li>
+<li>In Address box, enter the server Ip address which is : <code>129.199.81.135</code>. On the Username and Password boxes, enter the information you received via email and then click OK.</li>
+<li>You will now see your computer (Local Site) is on the left and the server (Remote Site) is on the right. Navigate to the different locations on both sites.</li>
+<li>Create on your local computer a folder name <code>Data_to_process</code> and copy all the data files you want to process. If the data are from the BabyLogger, you have 2 options: you can either send the decrypted files on the <code>Decrypted_Data</code> folder or the encrypted files on the <code>Raw_Data</code> folder.</li>
+<li>Drag and drop this folder to the server site (Right part).</li>
+</ol>
+</li>
+</ul>
+<!-- start: this needs to be styled. not sure how it needs to be styled -->
+<h3 id="data-processing">Data processing</h3>
+<p>Here are the different algorithms used to process the data sent to our server.</p>
+<ol>
+<li><strong>Pyannote</strong>
+An  open-source  toolkit written in Python for speaker diarization. Pyannote allows the following tasks:</li>
+</ol>
+<ul>
+<li><em>Voice Activity Detection (VAD)</em> is the task of detecting speech regionsin a given audio stream or recording. The ouput for this in the rttm file is SPEECH. To this label, is associated the onset and the duration.</li>
+<li><em>Speaker change detection</em> is the task of detecting speaker change points in a given audio stream or recording. Currently, the labels we output are: <strong>KCHI</strong> (key child), <strong>CH</strong> (other children), <strong>MAL</strong> (male adult.s), <strong>FEM</strong> (female adult.s).</li>
+</ul>
+<p>Note that for the last 3 categories, speakers of the same type are aggregated. For example, we don&rsquo;t make the distinction if there are 3 distinct female speakers. They are all labelled under FEM.</p>
+<p>Here&rsquo;s a sample output of the rttm file using the Pyannote algorithm:</p>
+<ul>
+<li>SPEAKER FEM_MA_speech_test_3_16000Hz_16bit_mono 1 1.011 4.506 <NA> <NA> SPEECH <NA> <NA></li>
+<li>SPEAKER FEM_MA_speech_test_3_16000Hz_16bit_mono 1 1.014 4.475 <NA> <NA> MAL <NA> <NA></li>
+</ul>
+<ol start="2">
+<li><strong>ALICE</strong></li>
+</ol>
+<p>An open-source and language-independent tool for automatic measurement of phoneme, syllable, and word counts.
+ALICE allows the following measurements:</p>
+<ul>
+<li><em>Count of total phones/phonemes</em> per file,</li>
+<li><em>Count of total syllables</em> per file,</li>
+<li><em>Count of total words</em> per file.</li>
+</ul>
+<p>Here&rsquo;s a sample output using the ALICE algorithm:</p>
+<ul>
+<li>FileID phonemes syllables words.</li>
+<li>FEM_speech_test_2_16000Hz_16bit_mono 227 111 72.</li>
+<li>MA_speech_test_1_16000Hz_16bit_mono 239 118 79.</li>
+</ul>
+<p><strong>References:</strong></p>
+<ul>
+<li>Bredin, H., Yin, R., Coria, J. M., Gelly, G., Korshunov, P., Lavechin, M., Fustes, D., Titeux, H., Bouaziz, W. and Gill, M.-P. (2020). pyannote.audio: neural building blocks for speaker diarization. In International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2020.</li>
+<li>Lavechin, M., Bousbib, R., Bredin, H., Dupoux, E., &amp; Cristia, A. (submitted). An open-source voice type classifier for child-centered daylong recordings. Submitted to Interspeech-2020, October 25–29, Shanghai, China. Online arXiv pre-print: <a href="https://arxiv.org/pdf/2005.12656.pdf">https://arxiv.org/pdf/2005.12656.pdf</a></li>
+<li>Räsänen O, Seshadri S, Lavechin M, Cristia A, Casillas M. ALICE: An open-source tool for automatic measurement of phoneme, syllable, and word counts from child-centered daylong recordings. Behav Res Methods. 2020 Sep 1. doi: 10.3758/s13428-020-01460-x. Epub ahead of print. PMID: 32875399.</li>
+</ul>
+<!-- end; this needs to be styled. not sure how it needs to be styled -->
+<h3 id="downloading-the-results">Downloading the results</h3>
+<p>When the processing is completed, you will receive an email notification to download the results.
+You can watch video below for more details or follow these steps:</p>
+<ul>
+<li>Open the FileZilla software and connect to the remote site following the same procedure as above.</li>
+<li>On the right section (Remote server) you will find a folder with the decrypted data if you sent encrypted data of the BabyLogger. In all cases, you will find the outputs of the algorithms in the <code>output_results</code> folder.</li>
+</ul>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/cO3RGgTE2hA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+ </p>
+
+
+
+        </div>    </body>
+</html></body>
+</html>

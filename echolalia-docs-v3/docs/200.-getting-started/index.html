@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html><!DOCTYPE html>
+<html lang="en-us">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        
+        <link rel="canonical" href="/docs/200.-getting-started/">
+
+        
+        <title>
+            
+            Getting Started | BabyLogger Documentation
+            
+        </title>
+        <meta name="generator" content="Hugo 0.65.3" />
+
+        
+        <link href="/css/fontawesome.min.css" rel="stylesheet">
+
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+        
+        <script src="/js/script.js"></script>
+
+        <link rel="stylesheet" href="https://use.typekit.net/soj6cmr.css">
+
+        
+        
+        <link rel="stylesheet" href="/css/coml.css">
+        
+    </head><body><body><div id="content">
+
+<h1> Getting Started </h1>
+<p> <h2 id="setting-up">Setting Up</h2>
+<h3 id="time-synchronization">Time Synchronization</h3>
+<p>A phone application has been developed to allow you to synchronize the date and time of the BabyLogger depending on your time zone.</p>
+<h5 id="instructions">Instructions:</h5>
+<ul>
+<li>
+<p><strong>What is needed: a phone application (Android only)</strong> :</p>
+<ul>
+<li>An Android phone is required to use the application (no IOS support currently).</li>
+<li>Download the time synchronization application, <a href="https://s3.console.aws.amazon.com/s3/object/packages.babycloudlab.com/ble_init.apk?region=eu-west-1&amp;tab=overview">here</a> onto your phone.</li>
+<li>Alternatively, you can also download the application from the email received by the <em>Echolalia Team</em>, by double clicking on the <strong><a href="xxx">APK</a></strong>.</li>
+<li>Make sure that you have the application installed on your phone.</li>
+</ul>
+</li>
+<li>
+<p><strong>The process</strong> :</p>
+<ul>
+<li>Power on the bluetooth of your phone.</li>
+<li>In order to modify the date and time on the BabyLogger, you need to charge the logger AND be connected to the phone application via the bluetooth of the logger.</li>
+<li>Pair the phone with the logger bluetooth name <strong>&ldquo;BabyLogger&rdquo;</strong> with password <strong>&ldquo;123456&rdquo;</strong>. You have 10 minutes to update the time. If the process is not completed during that time, you will have to start over.</li>
+<li>Once the logger is connected to your phone, the LED of the logger will change from RED (charging  mode) to <!-- raw HTML omitted --><strong>GREEN</strong> <!-- raw HTML omitted -->/<!-- raw HTML omitted --><strong>RED</strong> <!-- raw HTML omitted -->.</li>
+<li>Open the application and click on the <strong>Update Time</strong> button.</li>
+<li>Now, the LED will switch to <!-- raw HTML omitted --><strong>RED</strong> <!-- raw HTML omitted --> only, which means that the Baby Logger has correctly synchronized with your Timezone.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Note: you should synchronize the time of your logger, right after receiving it, and also every time that it has been powered off for several weeks.</strong>
+Watch this <a href="/">video</a>, for the process</p>
+<h3 id="sd-card">SD Card</h3>
+<h4 id="formatting-the-sd-card">Formatting the SD card</h4>
+<p>With 64 GO SD card, Create two partitions with the first one containing 95% of the memory area and the second one 5%. The card should be formatted in the NTFS File System, and the partitions should be created in a fixed order (audio first, accelerometer second). The table below gives the names and sizes of the partitions that should be created according to your SD card size.</p>
+<table>
+<thead>
+<tr>
+<th>Partition</th>
+<th>Name of partition</th>
+<th>partition_size</th>
+<th>partition_type</th>
+<th>size_unity_allocation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Partition 1</td>
+<td>BL_AUDIO</td>
+<td>60.8GB</td>
+<td>EXFAT</td>
+<td>64Ko</td>
+</tr>
+<tr>
+<td>Partition 2</td>
+<td>BL_MOTION</td>
+<td>3.2GB</td>
+<td>FAT32</td>
+<td>32Ko</td>
+</tr>
+</tbody>
+</table>
+<h4 id="creating-a-partition-on-a-new-sd-card">Creating a partition on a new SD card</h4>
+<ul>
+<li>
+<p>You can follow this <a href="https://youtu.be/OZVFvBzQRbs">tutorial</a> that we made on windows and it can help you.</p>
+</li>
+<li>
+<p>Or you can follow this link, that explain this process for each OS:</p>
+<ul>
+<li><a href="https://www.wikihow.com/Partition-an-SD-Card#Windows_sub">Windows</a></li>
+<li><a href="https://askubuntu.com/questions/240f497/partitioning-sd-card">Linux</a></li>
+<li><a href="https://www.wikihow.com/Partition-an-SD-Card#Mac-OS-X_sub">MacOs</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="decrypting-the-data">Decrypting the Data</h3>
+<p>All data recorded with the BabyLogger are encrypted for data protection. If the logger is lost, nobody except for the registered user will be able to decrypt the data. For that reason, do not share the downloaded software as well as the security key folder.
+This is a <a href="https://youtu.be/M8BIioxAnQA">Tutorial</a>, to explain how to decrypt data on MacOs, the same process can be follow on the other OS.</p>
+<p><strong><!-- raw HTML omitted -->NOTE:<!-- raw HTML omitted --></strong>
+please make sure your computer has the proper protection (antivirus, hard drive encryption, password logins). It is going to contain unencrypted sensitive personal data collected in families; you are responsible for the proper protection of this data.</p>
+<h4 id="download-the-babylogger-software">Download the BabyLogger software</h4>
+<ul>
+<li>Download the BabyLogger&rsquo;s Software Package corresponding to your computer&rsquo;s operating system from the link that you received on the email.
+<ul>
+<li><a href="/Linux_babylogger_decrypt.zip">Linux</a> .</li>
+<li><a href="MacOS_babylogger_decrypt.zip">MacOs</a> .</li>
+<li><a href="Windows_babylogger_decrypt.zip">Windows</a>.</li>
+</ul>
+</li>
+<li>Enter the passcode given on the email  to unzip the folder OSname_babylogger_decrypt.
+. This step will create a <strong>BabyLogger</strong> folder.</li>
+<li>Inside the folder, there is an executable file to launch the decryption software(babylogger_OSname) and three subfolders:
+<ul>
+<li><strong>Raw_Data :</strong> which contains temporary files for transfer.</li>
+<li><strong>Decrypted_Data:</strong> which contains decrypted data.</li>
+<li><strong>Key:</strong> which contains the keys associated with your loggers. <strong>DON&rsquo;T EVER CHANGE THE KEY FOLDER CONTENT</strong></li>
+</ul>
+</li>
+</ul>
+<h4 id="how-to-decrypt-the-babylogger-data">How to decrypt the BabyLogger data?</h4>
+<p>Once you start transferring data from the MicroSD, all the data needs to be transferred and then deleted (otherwise the logger could be confused and overwrite the remaining data when it is in recording mode again).</p>
+<ol>
+<li>Launch the decryption process by choosing one of these 2 options:</li>
+</ol>
+<ul>
+<li>
+<p>A) Double-click on the <strong>babylogger_OSname</strong> app icon to launch the decryption process.</p>
+</li>
+<li>
+<p>B) If you have a problem on double click app, navigate to the <strong>Osname_babylogger_decrypt</strong> folder according to your OS and run the following command: <strong>./babylogger_OSname</strong> .</p>
+</li>
+<li>
+<p><strong>example</strong>:</p>
+</li>
+</ul>
+<pre><code>if you use MacOS, navigateto the  *MacOS_babylogger_decrypt* folder and tape ./babylogger_MacOS on the terminal.
+</code></pre>
+<p><em>(if you encounter any problem, see the FAQ section)</em>.</p>
+<ol start="2">
+<li>The decrypting process creates the audio (.wav) and accelerometer files in the “Decrypt_Data” folder; the files are now ready to be copied for backing up. Each file has now a unique name (LoggerID and date).</li>
+<li>You can then copy them for backup or move them for further processing. The files have now a unique name (associated with the logger ID and date).</li>
+<li>Delete all remaining files in the <strong>Raw_data</strong> folder.</li>
+<li>Delete all files from both partitions of the MicroSD.</li>
+</ol>
+<p><!-- raw HTML omitted --><strong>WARNING:</strong> <!-- raw HTML omitted -->.</p>
+<p>Be careful, if using more than one logger, transfer and decrypt the first logger’s raw files before transferring the second logger’s raw files. All loggers use the same file name pattern, therefore you will overwrite the first logger’s raw files if they are not decrypted before transferring files from the second logger.</p>
+<h4 id="the-decrypted-files">The decrypted files</h4>
+<p>The decrypted files can be found in the <strong>Decrypt_Data</strong> folder. You will find three types of files :</p>
+<ol>
+<li><strong>Audio files</strong> (XX-Audio.wav): audio files recorded with frequency of 16kz, 16 bits and 4 channels. their duration is no longer than 30mins long.
+<ul>
+<li>Audio file example: <code>0002-20200115-20_40_07-Audio.wav</code></li>
+</ul>
+</li>
+<li><strong>Actimetry files</strong>  (XX-Acti.txt): it has the  Accelerometer and Gyroscope informations.
+<ul>
+<li>Actimetry file example: <code>0002-20200115-20_40_07-Acti.txt</code></li>
+</ul>
+</li>
+<li><strong>Meta data files</strong> (XX-Data.txt):recording information (e.g., number buffers, times stamps&hellip;)
+<ul>
+<li>Meta data file example: <code>0002-20200115-20_40_07-Data.txt</code></li>
+</ul>
+</li>
+</ol> </p>
+
+
+
+        </div>    </body>
+</html></body>
+</html>
