@@ -48,9 +48,9 @@
 <h1> FAQs </h1>
 <p> <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
 <h3 id="problem-launching-the-decrypt-software">Problem launching the decrypt software.</h3>
-<p>If you use <strong>MacOS</strong>, the first time when you double-click on BabyLogger, a window like the following may appear:</p>
+<p>If you are using <strong>MacOS</strong>, the first time when you double-click on BabyLogger, a window like this may appear:</p>
 <div class="docImage one">
-    <img src="/images/8.png" alt="Insert Alt Text">
+    <img src="/images/8.png" alt="screen capture of MacOS message saying it is impossible to open a non-identified developer">
     <p>&nbsp;</p>
 </div>
 
@@ -63,42 +63,38 @@
 <p>Use the terminal:</p>
 <ul>
 <li>Open a terminal: Ctrl+cmd+T (Linux), by searching for terminal (MacOS) or type cmd (Windows).</li>
-<li>Go to the path where to find the installed MacOS_babylogger_decrypt folder for example.</li>
-<li>Type the following command on a terminal: ./babylogger_OSname (for Linux and MacOS) and babylogger_windows.exe (for Windows).</li>
+<li>Go to the path where to find the installed <strong>MacOS_babylogger_decrypt</strong> folder for example.</li>
+<li>Type the following command on a terminal: <code>./babylogger_OSname</code> (for Linux and MacOS) and <code>babylogger_windows.exe</code> (for Windows).</li>
 </ul>
 </li>
 </ol>
-<p>If you use <strong>Windows</strong>, if you have a warning (see the picture below) when you double click the Windows_babylogger_decrypt app, click on Run anyway.</p>
+<h3 id="problem-with-decryption-process-on-windows">Problem with decryption process on Windows</h3>
+<p>If you using <strong>Windows</strong> and have a warning (see the picture below) when you double click the <em>Windows_babylogger_decrypt</em> app, click on <em>Run anyway</em>.</p>
 <div class="docImage one">
-    <img src="/images/wind.jpg" alt="Insert Alt Text">
+    <img src="/images/wind.jpg" alt="screen capture of window&#39;s protect your PC alert message">
     <p>&nbsp;</p>
 </div>
 
 <h3 id="problems-in-decrypting-the-files">Problems in decrypting the files.</h3>
-<p>The decryption software is tuned to the particular loggers that you have ordered. This is for data protection. If a logger is lost, nobody except the registered user will be able to decrypt the data. It also means that you should not distribute the software that you have downloaded. It contains a set of keys dedicated for your specific loggers. The keys are in the directory keys/ and you should not change or remove anything in this directory.</p>
+<p>The decryption software is customized to the particular loggers that you have ordered. This is for data protection. If a logger is lost, nobody except the registered user will be able to decrypt the data. It also means that you should not distribute the software that you have downloaded. It contains a set of keys dedicated for your specific loggers. The keys are in the folder <strong>keys/</strong> and you should not change or remove anything in this directory.</p>
 <p>If you encounter a problem, re-download the software and make sure that you are using the correct set of loggers (the logger IDs appear in the audio, meta data and accelerometer files).</p>
-<h3 id="problem-with-decryption-process-on-windows">Problem with decryption process on Windows</h3>
-<p>On Windows , if you have a warning (see the picture below) when you double click the Windows_babylogger_decrypt app, click on <em>Run anyway</em>.</p>
-<div class="docImage one">
-    <img src="/images/wind.jpg" alt="Insert Alt Text">
-    <p>&nbsp;</p>
-</div>
-
 <h3 id="warnings-during-file-decryption-process">Warnings during file decryption process.</h3>
 <p>The decryption process runs a check on data integrity. In case of warnings, it means that part of the audio is missing, which could be due to problems with the hardware (the Logger or the SD Card).</p>
 <h3 id="data-volume-and-synchronization-software">Data volume and synchronization software.</h3>
 <div class="warning">
     <h5>WARNING</h5>
     
-<ul>
-<li>The logger files are large and will take up lots of hard drive space (around 60% more than the size of the SD Card in use). For example, for a 64GB storage on the SD card, 100GB will be required on the hard drive. f you are using an automatic synchronization on the cloud (icloud, dropbox, etc), be careful to exclude the Logger directories from automatic backup! This may slow down everything and saturate your storage allocation.</li>
-<li>If you use a MacOS and you synchronyze the MacOS storage with the icloud, make sure that when you copy the files onto the 'Raw_Data' folder, these stay on your own device (local storage) and are not synced with the icloud.
-In the following example, it means that the file is in the icloud and not on the local device.</li>
-<li>If that happens, delete the files and re-copy them. They should be this time on your local device, and make sure that no cloud logo exist like in the previous picture.</li>
-</ul>
+The logger files are large and will take up lots of hard drive space (around 60% more than the size of the SD Card in use). For example, for 64GB of data on the SD card will require 100GB of storage on a hard drive. If you are using an automatic synchronization on the cloud (iCloud, Dropbox, etc), be careful to exclude the logger directories from automatic backup! This may slow down everything and saturate your storage allocation.
 
 </div>
 
+<p>If you use MacOS and you synchronize the MacOS storage with the iCloud, make sure that when you copy the files onto the <b>'Raw_Data'</b> folder, these stay on your own device (local storage) and are not synced with the iCloud. In the following screenshot, the cloud icon to the left of the date means that the file is currently stored on iCloud and not on the local device.</p>
+<div class="docImage one">
+    <img src="/images/icloud.jpg" alt="screen capture of a file in the MacOS finder with a cloud icon between the file name and date">
+    <p>&nbsp;</p>
+</div>
+
+<p>If this happens, delete the files and re-copy them. They should be this time on your local device, and make sure that no cloud logo exist like in the previous picture.</p>
 <h3 id="problems-with-the-sd-card">Problems with the SD card</h3>
 <p>If you use Linux and while copying the files from the SD card, you encounter issues with the SD Card format, type the following commands:</p>
 <ul>

@@ -47,7 +47,7 @@
 
 <h1> Automatic Data Processing </h1>
 <p> <h2 id="automatic-data-processing">Automatic Data Processing</h2>
-<p>This section describes the steps to send the collected data to the server and to process them. To transfer the files data to the server, we use the FileZilla software as a solution. FileZilla may be used for secure file transfer using SFTP or FTPS between clients and server. You can follow the steps below or watch this tutorial.
+<p>This section describes the procedure for sending the collected data to our server for processing. We will use the FileZilla software as a solution to transfer the files data to the server. FileZilla may be used for secure file transfer using SFTP or FTPS between clients and server. Follow the steps below and/or watch this tutorial.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/seTY6lqetRI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
@@ -58,7 +58,7 @@
 <li>
 <p><strong>Installation</strong></p>
 <ul>
-<li>You can download the filezilla software  <a href="https://filezilla-project.org/">here</a> according to your operating system.</li>
+<li>Download the filezilla software  <a href="https://filezilla-project.org/">here</a> according to your operating system.</li>
 </ul>
 </li>
 <li>
@@ -74,7 +74,7 @@
 <li>For FTPS transfers, select &lsquo;FTP over SSL&rsquo; (explicit encryption).</li>
 <li>In the &lsquo;Logontype&rsquo; box, check &lsquo;Normal&rsquo;.</li>
 <li>In the &lsquo;User&rsquo; box, enter the username you were assigned for this server (and received via email)</li>
-<li>Click the &lsquo;Don&rsquo;t save password&rsquo; box.</li>
+<li>Check the &lsquo;Don&rsquo;t save password&rsquo; box.</li>
 </ul>
 </li>
 <li>Click Save and Exit.</li>
@@ -89,57 +89,67 @@
 <li>Click the arrow next to the &lsquo;Open Site Manager&rsquo; button, and then select the server you set up in the previous procedure.</li>
 <li>In Address box, enter the server Ip address which is : <code>129.199.81.135</code>. On the Username and Password boxes, enter the information you received via email and then click OK.</li>
 <li>You will now see your computer (Local Site) is on the left and the server (Remote Site) is on the right. Navigate to the different locations on both sites.</li>
-<li>Create on your local computer a folder name <code>Data_to_process</code> and copy all the data files you want to process. If the data are from the BabyLogger, you have 2 options: you can either send the decrypted files on the <code>Decrypted_Data</code> folder or the encrypted files on the <code>Raw_Data</code> folder.</li>
+<li>On your local computer create a folder name <code>Data_to_process</code>. Copy and paste all the files you want to process into this folder. If the data is from the BabyLogger, you can either send the decrypted files on the <code>Decrypted_Data</code> folder or the encrypted files on the <code>Raw_Data</code> folder.</li>
 <li>Drag and drop this folder to the server site (Right part).</li>
 </ol>
 </li>
 </ul>
-<!-- start: this needs to be styled. not sure how it needs to be styled -->
 <h3 id="data-processing">Data processing</h3>
 <p>Here are the different algorithms used to process the data sent to our server.</p>
 <ol>
-<li><strong>Pyannote</strong>
-An  open-source  toolkit written in Python for speaker diarization. Pyannote allows the following tasks:</li>
-</ol>
+<li>
+<p><span class="algo">Pyannote</span><br>An  open-source  toolkit written in Python for speaker diarization. Pyannote allows the following tasks:</p>
 <ul>
 <li><em>Voice Activity Detection (VAD)</em> is the task of detecting speech regionsin a given audio stream or recording. The ouput for this in the rttm file is SPEECH. To this label, is associated the onset and the duration.</li>
-<li><em>Speaker change detection</em> is the task of detecting speaker change points in a given audio stream or recording. Currently, the labels we output are: <strong>KCHI</strong> (key child), <strong>CH</strong> (other children), <strong>MAL</strong> (male adult.s), <strong>FEM</strong> (female adult.s).</li>
+<li><em>Speaker change detection</em> is the task of detecting speaker change points in a given audio stream or recording. Currently, the labels we output are: <strong>KCHI</strong> (key child), <strong>CH</strong> (other children), <strong>MAL</strong> (male adult.s), <strong>FEM</strong> (female adult.s).
+<br>Note: for the latter 3 categories, speakers of the same type are aggregated. For example, we don&rsquo;t make the distinction between three separate female speakers. They are all labelled as FEM.</li>
 </ul>
-<p>Note that for the last 3 categories, speakers of the same type are aggregated. For example, we don&rsquo;t make the distinction if there are 3 distinct female speakers. They are all labelled under FEM.</p>
-<p>Here&rsquo;s a sample output of the rttm file using the Pyannote algorithm:</p>
-<ul>
-<li>SPEAKER FEM_MA_speech_test_3_16000Hz_16bit_mono 1 1.011 4.506 <NA> <NA> SPEECH <NA> <NA></li>
-<li>SPEAKER FEM_MA_speech_test_3_16000Hz_16bit_mono 1 1.014 4.475 <NA> <NA> MAL <NA> <NA></li>
-</ul>
-<ol start="2">
-<li><strong>ALICE</strong></li>
-</ol>
-<p>An open-source and language-independent tool for automatic measurement of phoneme, syllable, and word counts.
+<div class="algorithmSample">
+    <p><b>Here&#39;s a sample output of the rttm file using the Pyannote algorithm:</b></p>
+    
+      <ul>
+        <li>SPEAKER FEM_MA_speech_test_3_16000Hz_16bit_mono 1 1.011 4.506 <NA> <NA> SPEECH <NA> <NA></li>
+        <li>SPEAKER FEM_MA_speech_test_3_16000Hz_16bit_mono 1 1.014 4.475 <NA> <NA> MAL <NA> <NA></li>
+      </ul>
+    
+</div>
+
+</li>
+<li>
+<p><span class="algo">ALICE</span>
+<br>An open-source and language-independent tool for automatic measurement of phoneme, syllable, and word counts.
 ALICE allows the following measurements:</p>
 <ul>
 <li><em>Count of total phones/phonemes</em> per file,</li>
 <li><em>Count of total syllables</em> per file,</li>
 <li><em>Count of total words</em> per file.</li>
 </ul>
-<p>Here&rsquo;s a sample output using the ALICE algorithm:</p>
-<ul>
-<li>FileID phonemes syllables words.</li>
-<li>FEM_speech_test_2_16000Hz_16bit_mono 227 111 72.</li>
-<li>MA_speech_test_1_16000Hz_16bit_mono 239 118 79.</li>
-</ul>
-<p><strong>References:</strong></p>
+<div class="algorithmSample">
+    <p><b>Here&#39;s a sample output using the ALICE algorithm:</b></p>
+    
+      <ul>
+        <li>FileID phonemes syllables words.</li>
+        <li>FEM_speech_test_2_16000Hz_16bit_mono 227 111 72.</li>
+        <li>MA_speech_test_1_16000Hz_16bit_mono 239 118 79.</li>
+      </ul>
+    
+</div>
+
+</li>
+</ol>
+<p><br><br>
+<strong>References:</strong></p>
 <ul>
 <li>Bredin, H., Yin, R., Coria, J. M., Gelly, G., Korshunov, P., Lavechin, M., Fustes, D., Titeux, H., Bouaziz, W. and Gill, M.-P. (2020). pyannote.audio: neural building blocks for speaker diarization. In International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2020.</li>
 <li>Lavechin, M., Bousbib, R., Bredin, H., Dupoux, E., &amp; Cristia, A. (submitted). An open-source voice type classifier for child-centered daylong recordings. Submitted to Interspeech-2020, October 25–29, Shanghai, China. Online arXiv pre-print: <a href="https://arxiv.org/pdf/2005.12656.pdf">https://arxiv.org/pdf/2005.12656.pdf</a></li>
 <li>Räsänen O, Seshadri S, Lavechin M, Cristia A, Casillas M. ALICE: An open-source tool for automatic measurement of phoneme, syllable, and word counts from child-centered daylong recordings. Behav Res Methods. 2020 Sep 1. doi: 10.3758/s13428-020-01460-x. Epub ahead of print. PMID: 32875399.</li>
 </ul>
-<!-- end; this needs to be styled. not sure how it needs to be styled -->
 <h3 id="downloading-the-results">Downloading the results</h3>
 <p>When the processing is completed, you will receive an email notification to download the results.
 You can watch video below for more details or follow these steps:</p>
 <ul>
 <li>Open the FileZilla software and connect to the remote site following the same procedure as above.</li>
-<li>On the right section (Remote server) you will find a folder with the decrypted data if you sent encrypted data of the BabyLogger. In all cases, you will find the outputs of the algorithms in the <code>output_results</code> folder.</li>
+<li>On the right section (Remote server) you will find the <code>output_results</code> folder containing the outputs of the algorithms. If you sent the encrypted data from the BabyLogger, you will also find a folder with the decrypted data.</li>
 </ul>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">

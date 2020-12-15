@@ -137,6 +137,8 @@ table {
     margin: 0; }
     #left-column ul li {
       list-style: none; }
+  #left-column a {
+    color: var(--text-dark); }
 
 #right-column {
   scroll-behavior: smooth;
@@ -167,8 +169,36 @@ table {
     padding-top: calc(60px - 16px); }
   #right-column .needs-divider {
     padding-top: calc(60px - 16px); }
-  #right-column .section:first-of-type .section-divider-dark {
-    display: none; }
+  #right-column .welcome-page {
+    min-height: 100vh; }
+    #right-column .welcome-page .section-divider-dark {
+      display: none; }
+    #right-column .welcome-page .welcome-image {
+      width: 100%;
+      text-align: center;
+      margin-top: 2em; }
+      #right-column .welcome-page .welcome-image img {
+        width: 400px;
+        max-width: 50%;
+        height: auto; }
+  #right-column li table {
+    table-layout: fixed; }
+    #right-column li table tr {
+      vertical-align: top; }
+    #right-column li table td {
+      padding-left: 5px;
+      padding-right: 5px; }
+  #right-column .algo {
+    font-family: jaf-bernina-sans,Varela Round,Arial,Helvetica,sans-serif;
+    color: var(--text-dark); }
+  #right-column .algorithmSample {
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    background-color: var(--light-blue); }
+    #right-column .algorithmSample p {
+      color: var(--text-dark); }
 
 #TableOfContents {
   color: #1a202c; }
@@ -176,7 +206,11 @@ table {
 #TableOfContents ul {
   margin-left: 1rem !important; }
 
-#TableOfContents li.active > a {
+#TableOfContents li.active.firstLevel > a {
+  color: #2086AB;
+  font-weight: 500; }
+
+#TableOfContents li.active.secondLevel > a {
   color: #2086AB;
   font-weight: 500; }
 
@@ -202,10 +236,10 @@ table {
 #TableOfContents .thirdLevel a:visited {
   color: var(--menu-light-text); }
 
-#TableOfContents .firstLevel a:hover, #TableOfContents .firstLevel a:focus, #TableOfContents .firstLevel a:active, #TableOfContents .secondLevel a:hover, #TableOfContents .secondLevel a:focus, #TableOfContents .secondLevel a:active {
+#TableOfContents .firstLevel a:hover, #TableOfContents .secondLevel a:hover {
   color: #4CCCC0; }
 
-#TableOfContents .thirdLevel a:hover, #TableOfContents .thirdLevel a:focus, #TableOfContents .thirdLevel a:active {
+#TableOfContents .thirdLevel a:hover {
   color: #4CCCC0; }
 
 .firstLevel {
@@ -280,4 +314,6 @@ table {
     width: 100%;
     min-height: 100vh;
     z-index: 1;
-    padding-top: 100px; } }
+    padding-top: 100px; }
+    #right-column .welcome-page {
+      min-height: 50vh; } }

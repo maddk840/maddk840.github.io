@@ -1,5 +1,9 @@
-window.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () =>{
+    clearActiveStatesInTableOfContents();
+    hidesubmenus();
+});
 
+window.addEventListener('DOMContentLoaded', () => {
     const options = {
         root: null, // it is the viewport by default
         threshold: 0, // 0-1 scale. 0 by default. if threshold is at 1, 100% of item has to be on the page
