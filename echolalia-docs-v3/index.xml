@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BabyLogger Documentation</title>
-    <link>/</link>
+    <link>https://maddk840.github.io/echolalia-docs-v3/</link>
     <description>Recent content on BabyLogger Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://maddk840.github.io/echolalia-docs-v3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>What is the BabyLogger</title>
-      <link>/docs/100.-what-is-the-baby-logger/</link>
+      <link>https://maddk840.github.io/echolalia-docs-v3/docs/100.-what-is-the-baby-logger/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/100.-what-is-the-baby-logger/</guid>
+      <guid>https://maddk840.github.io/echolalia-docs-v3/docs/100.-what-is-the-baby-logger/</guid>
       <description>About the BabyLogger Overview of the BabyLogger The BabyLogger is a device used by researchers to record a child’s interactions in a secure manner and to extract the audio and actimetric information.
 Components The device consists of two parts: a main body and a cover. Removing the cover allows for access to the SD card, and power port (micro USB). The following pictures shows the main components of the BabyLogger:</description>
     </item>
     
     <item>
       <title>Setting Up</title>
-      <link>/docs/200.-setting-up/</link>
+      <link>https://maddk840.github.io/echolalia-docs-v3/docs/200.-setting-up/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/200.-setting-up/</guid>
+      <guid>https://maddk840.github.io/echolalia-docs-v3/docs/200.-setting-up/</guid>
       <description>Setting Up Time Synchronization A phone application allows you to synchronize the date and time of the BabyLogger depending on your time zone. An Android phone is required to use the application (currently, there is no iOS support).
 Instructions:   Download the time synchronization application :
  The application can be downloaded directly onto your phone using this link. Alternatively, you can also download the application from the email received by the Echolalia Team, by double clicking on the APK.</description>
@@ -33,19 +33,19 @@ Instructions:   Download the time synchronization application :
     
     <item>
       <title>Automatic Data Processing</title>
-      <link>/docs/300.-automatic-data-processing/</link>
+      <link>https://maddk840.github.io/echolalia-docs-v3/docs/300.-automatic-data-processing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/300.-automatic-data-processing/</guid>
+      <guid>https://maddk840.github.io/echolalia-docs-v3/docs/300.-automatic-data-processing/</guid>
       <description>Automatic Data Processing This section describes the procedure for sending the collected data to our server for processing. We will use the FileZilla software as a solution to transfer the files data to the server. FileZilla may be used for secure file transfer using SFTP or FTPS between clients and server. Follow the steps below and/or watch this tutorial.   Transferring the files to the Cloud using FileZilla   Installation</description>
     </item>
     
     <item>
       <title>FAQs</title>
-      <link>/docs/400.-frequently-asked-questions/</link>
+      <link>https://maddk840.github.io/echolalia-docs-v3/docs/400.-frequently-asked-questions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/400.-frequently-asked-questions/</guid>
+      <guid>https://maddk840.github.io/echolalia-docs-v3/docs/400.-frequently-asked-questions/</guid>
       <description>Frequently Asked Questions Problem launching the decrypt software. If you are using MacOS, the first time when you double-click on BabyLogger, a window like this may appear:
 &amp;nbsp;
  To resolve this problem, you have 2 options:
@@ -56,10 +56,10 @@ Instructions:   Download the time synchronization application :
     
     <item>
       <title>Contact</title>
-      <link>/docs/500.-contact/</link>
+      <link>https://maddk840.github.io/echolalia-docs-v3/docs/500.-contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/500.-contact/</guid>
+      <guid>https://maddk840.github.io/echolalia-docs-v3/docs/500.-contact/</guid>
       <description>Contact Information Phone : +33 6 52 20 64 18
 Address : 2 Rue Simone Iff - 75012 Paris, France
 Contact Us : For technical questions and support or if you&amp;rsquo;d like to give us feedback you can reach us by email at contact@echolalia.org</description>
